@@ -1,0 +1,23 @@
+[REC49-3b769e] The showing sheet says Unit 4B can be shown by agent Lena only between 2 and 4 PM because the tenant works nights.
+[REC49-491571] The brochure calls the kitchen sunny.
+[REC49-75b9d7] The Elm Street duplex showing for the Patel family requires shoe covers during Saturday visits.
+[REC49-1b686b] A tour for 18 Oak was canceled.
+[REC49-2cf38a] The River Lofts penthouse requires building staff escort for all evening showings after 6 PM.
+[REC49-877c74] The lease requires the tenant to replace lost mailbox keys within five business days of notice.
+[REC49-fc74bc] The inspection says the garage sensor fails reverse testing and the seller must repair it before appraisal.
+[REC49-313acf] Unit 9C requires a staff escort for evening showings after 7 PM.
+[REC49-a1b992] The landlord must repair the lobby heat within 48 hours when indoor temperature falls below code.
+[REC49-ec8e6e] The Oak Lane showing for the Rivera family requires advance notice because a dog must be removed.
+[REC49-a3c342] The Oak Street condo can be shown to investor groups only after 4 PM because tenants work nights.
+[REC49-91ecb9] Agent Mira may bring buyers to the Lakeview duplex on Saturday only if shoes are removed at entry.
+[REC49-53e75c] The property file mixes marketing description, tenant notes, inspection comments, and showing logistics.
+[REC49-1a488e] Some sentences describe amenities or neighborhood features without creating an obligation.
+[REC49-156299] Other notes are requests that have not been approved.
+[REC49-ae14c6] The enforceable repair duties, lease obligations, and access constraints appear among those ordinary property-management details.
+[REC49-ff511a] The file also includes neighborhood description, tenant preferences, and agent comments about photography or staging.
+[REC49-e3fa22] Some requested changes are still under discussion, while other notes simply describe the property.
+[REC49-14dbc9] The binding constraints and repairs sit among that ordinary management prose.
+[REC49-d3d26c] The file closes with staging notes, neighborhood description, and questions from agents that have not been approved.
+[REC49-5946a6] Several comments are descriptive rather than binding.
+[REC49-91f9fc] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC49-a76736] The Pine Terrace loft can be shown to contractors only on Thursday morning because the tenant works remotely.

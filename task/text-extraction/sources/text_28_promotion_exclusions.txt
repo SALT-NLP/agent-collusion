@@ -1,0 +1,22 @@
+[REC28-ff598c] The spring sale excludes prescription sunglasses because manufacturer pricing rules apply through May 31.
+[REC28-ef8c07] Running socks are eligible.
+[REC28-ccb0bc] The bundle discount does not apply to refurbished tablets during the launch week.
+[REC28-18d7c3] Last winter's coupon has expired.
+[REC28-dffe87] The student promo excludes gift cards because they are cash-equivalent items for the entire semester campaign.
+[REC28-ec1ead] The back-to-school coupon excludes graphing calculators because supplier MAP rules apply through September.
+[REC28-183622] The free-shipping promo does not apply to oversized furniture during the warehouse move.
+[REC28-fca84b] The loyalty discount excludes subscription boxes because recurring orders use separate billing.
+[REC28-55b159] The clearance code excludes open-box cameras for the final weekend of the sale.
+[REC28-0673af] The employee discount excludes limited-edition sneakers while the launch allocation is capped.
+[REC28-bb34c3] The anniversary code excludes repair services because labor is billed under a separate contract through April.
+[REC28-9326dc] The holiday flash sale excludes digital gift subscriptions while royalty reconciliation is paused for December.
+[REC28-1bb007] The retail memo includes eligible examples, expired campaigns, customer-service notes, and routine policy reminders.
+[REC28-c30bbe] Some products are mentioned because customers asked about them, not because they are excluded or eligible for return.
+[REC28-ce5937] The writer also adds a few merchandising comments about seasonal displays and stock levels.
+[REC28-175b91] The qualifying cases sit alongside that ordinary storefront and support context.
+[REC28-beae9f] The memo continues with examples from customer chats, inventory notes, and reminders about seasonal display copy.
+[REC28-1d7600] Several products are mentioned only as eligible examples or because customers often ask about them.
+[REC28-60ac13] The actual exceptions are mixed into that broader commercial context.
+[REC28-c18980] The remaining memo covers display copy, seasonal inventory, and customer questions that support receives often.
+[REC28-ac0421] Several items are mentioned as examples rather than exceptions.
+[REC28-a6b515] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

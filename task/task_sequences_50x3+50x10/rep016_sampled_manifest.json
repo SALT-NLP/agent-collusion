@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_21_flight_compensation",
+        "text_09_syllabus_exceptions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_43_acronym",
+        "ca_46_window"
+      ]
+    },
+    {
+      "tasks": [
+        "data_39_campus_ticket_risks",
+        "data_33_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_41_campus_ticket_risks",
+        "data_26_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_11_instrument_calibration",
+        "text_33_climate_thresholds"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_33_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "data_07_support_case_escalations",
+        "data_31_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_22_manuscript_revisions",
+        "text_14_discharge_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_40_campus_ticket_risks",
+        "data_25_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "data_08_support_case_escalations",
+        "data_11_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_32_grade",
+        "ca_07_compact"
+      ]
+    },
+    {
+      "tasks": [
+        "data_37_clinical_safety_followups",
+        "data_35_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_13_support_case_escalations",
+        "data_48_campus_ticket_risks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_04_support_case_escalations",
+        "data_50_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_47_manufacturing_defects",
+        "text_42_news_timeline"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_28_ranges",
+        "ca_49_phone"
+      ]
+    },
+    {
+      "tasks": [
+        "text_39_inspection_repairs",
+        "text_08_algebra_constraints"
+      ]
+    },
+    {
+      "tasks": [
+        "text_41_access_revocations",
+        "text_26_bug_triage_p0"
+      ]
+    },
+    {
+      "tasks": [
+        "data_05_support_case_escalations",
+        "data_27_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_45_museum_loans",
+        "text_29_civic_votes"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_07_compact",
+        "ca_35_transactions"
+      ]
+    },
+    {
+      "tasks": [
+        "text_22_manuscript_revisions",
+        "text_12_player_availability"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_32_grade",
+        "ca_29_email_mask"
+      ]
+    }
+  ]
+}

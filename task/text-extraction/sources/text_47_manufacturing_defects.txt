@@ -1,0 +1,20 @@
+[REC47-6cb07b] The quality log says Line 3 valve housings from batch V-118 must be held because bore diameter exceeded tolerance by 0.4 mm.
+[REC47-7f3825] A minor label wrinkle on batch L-77 is below the cosmetic threshold.
+[REC47-dfcead] Battery packs from line 2 batch B-204 are on hold after insulation resistance failed final test.
+[REC47-b6db4f] Lot P-19 was already released after rework.
+[REC47-a95b79] The gasket cell must quarantine batch G-502 because cure time was six minutes short of spec.
+[REC47-30969b] Line 4 must hold batch AX-118 after inspectors found cracked hinge pins on the travel case.
+[REC47-3255b9] The tablet assembly cell quarantined batch T7-55 because the adhesive bead skipped the upper corner.
+[REC47-132507] Bottle line B should stop shipment of lot L-902 after fill weights came in 8 ml below spec.
+[REC47-be93df] The chair frame product from welding line 2 needs rework because batch CF-77 shows incomplete rear seams.
+[REC47-e99dc0] Packaging line K put batch SN-14 on hold after barcode labels printed with the wrong checksum.
+[REC47-8cddcf] The sensor module run SM-330 is blocked because calibration screws were missing from six trays.
+[REC47-7a564a] The quality log includes routine inspections, cosmetic scuffs, and equipment checks that passed.
+[REC47-4e0342] Some batches are mentioned only because they moved to packing without issue.
+[REC47-51b117] The hold and rework cases appear among ordinary production notes from several lines, making the source read like a shift report.
+[REC47-16d415] The shift report also logs normal output totals, tool changes, and cosmetic findings that quality accepted.
+[REC47-de35aa] Some batches appear because they cleared inspection without further action.
+[REC47-8a9d56] The hold cases therefore sit inside the usual production narrative.
+[REC47-d30c3c] The report ends with normal output totals, accepted cosmetic scuffs, and equipment checks that passed.
+[REC47-fd14b9] Several batches are mentioned because they cleared inspection.
+[REC47-e45647] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

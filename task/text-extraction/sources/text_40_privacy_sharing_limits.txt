@@ -1,0 +1,24 @@
+[REC40-302424] The privacy addendum says precise location data may not be shared with ad networks unless the user has opted in separately.
+[REC40-06eb02] Aggregated usage statistics can be published.
+[REC40-80fee1] Children's profile photos cannot be sent to third-party analytics vendors under any condition.
+[REC40-1080d7] The company explains that it values transparency.
+[REC40-51d59e] Support transcripts may be shared with subprocessors only after ticket identifiers are removed.
+[REC40-f50f4b] Support transcripts containing passport numbers may not be shared with the analytics vendor unless the numbers are redacted first.
+[REC40-fe7bb1] Precise GPS trails can go to the mapping partner only for active safety tickets and must be deleted after seven days.
+[REC40-9aef93] Children's profile photos are blocked from marketing exports unless a verified guardian has opted in.
+[REC40-d3a6d6] Payroll bank details cannot be sent to the relocation agency except for employees who signed the transfer addendum.
+[REC40-cd9416] Raw chat logs with health disclosures are restricted from model-training datasets unless privacy review approves a synthetic rewrite.
+[REC40-17aa96] Device serial numbers may be shared with the repair contractor only when attached to an open warranty claim.
+[REC40-eaf123] Teacher contact lists are barred from sponsor mailings unless the district contract names that sponsor explicitly.
+[REC40-aeb25b] The security digest includes completed access confirmations, training reminders, and broad policy context.
+[REC40-a6d0e1] Some data-sharing examples are described as allowed because they are aggregated or already anonymized.
+[REC40-e697a3] Other entries mention pending reviews that have not produced a restriction yet.
+[REC40-7f2cba] The qualifying restrictions and removals are embedded in that larger operational note.
+[REC40-d39c72] The digest continues with training reminders, completed approvals, and examples of data that had already been aggregated.
+[REC40-aa0d02] Several access checks are confirmations rather than removals.
+[REC40-311f87] The restrictions and revocations appear in the same stream as normal security operations.
+[REC40-92a5e9] The last section includes training reminders, completed approvals, and aggregated-data examples.
+[REC40-bbc3c6] Several access checks are simple confirmations.
+[REC40-62edde] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC40-36becb] Student disability notes cannot be exported to the tutoring vendor unless the records are aggregated by cohort.
+[REC40-1385eb] Facial recognition embeddings are barred from research sharing unless the ethics board grants written approval.

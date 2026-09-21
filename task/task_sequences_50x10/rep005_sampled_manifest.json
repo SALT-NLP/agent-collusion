@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_44_inventory",
+        "ca_10_dedupe"
+      ]
+    },
+    {
+      "tasks": [
+        "data_37_clinical_safety_followups",
+        "data_29_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_49_campus_ticket_risks",
+        "data_45_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_09_compact",
+        "ca_27_initials"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_24_slugify",
+        "ca_13_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "text_49_real_estate_showings",
+        "text_36_restaurant_shifts"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_12_grade",
+        "ca_05_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_31_transactions",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_36_date"
+      ]
+    },
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_18_shipment_delays"
+      ]
+    }
+  ]
+}

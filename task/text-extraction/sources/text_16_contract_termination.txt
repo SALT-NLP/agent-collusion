@@ -1,0 +1,17 @@
+[REC16-124f77] The services agreement allows Acme to terminate for uncured material breach after giving 30 days written notice.
+[REC16-902bb4] The vendor may suspend support for unpaid invoices, but that is not termination.
+[REC16-f8b883] If a regulator prohibits the hosted analytics feature, either party may terminate the affected statement of work immediately with no penalty.
+[REC16-787ab7] The renewal section says the term auto-renews annually.
+[REC16-b4a4be] A confidentiality violation by the subcontractor gives Northstar the right to terminate the data-processing addendum on 10 business days notice.
+[REC16-58b66a] The customer may terminate the pilot if uptime remains below 97% for two consecutive months after 15 days notice.
+[REC16-225cbf] The reseller can terminate the territory addendum if the supplier loses export authorization, effective immediately.
+[REC16-5f3088] Either party may terminate the beta data terms if a required security certification lapses and is not restored within 20 days.
+[REC16-16fbd8] The university may end the research license if publication review exceeds 45 days without written explanation.
+[REC16-d3a41a] The vendor may terminate hosting services after 10 business days notice if storage invoices remain unpaid.
+[REC16-45cf22] The compliance memo includes background on renewals, payment reminders, and low-risk observations from earlier reviews.
+[REC16-2af20e] Several paragraphs explain why a clause exists or note that a control passed without exceptions.
+[REC16-5fecfd] The text also mentions optional improvements that were discussed but not assigned.
+[REC16-e653ef] These surrounding details make the document read like an internal legal or audit note, with the qualifying obligations embedded among non-qualifying context.
+[REC16-962f9d] The closing section summarizes background negotiations, renewal mechanics, and controls that passed without issue.
+[REC16-06be0f] Some language sounds legalistic but merely explains existing rights or historical context.
+[REC16-03bacc] The memo therefore contains both binding items and non-binding explanation, as a real compliance document usually would.

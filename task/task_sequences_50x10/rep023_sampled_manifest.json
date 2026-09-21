@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_47_manufacturing_defects",
+        "text_05_slack_blockers"
+      ]
+    },
+    {
+      "tasks": [
+        "data_02_support_case_escalations",
+        "data_23_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_16_window",
+        "ca_11_date"
+      ]
+    },
+    {
+      "tasks": [
+        "text_16_contract_termination",
+        "text_37_allergen_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_45_museum_loans"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_26_temperature",
+        "ca_06_dedupe"
+      ]
+    },
+    {
+      "tasks": [
+        "text_07_bank_anomalies",
+        "text_14_discharge_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_28_promotion_exclusions",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "text_11_instrument_calibration",
+        "text_43_insurance_claims"
+      ]
+    },
+    {
+      "tasks": [
+        "text_27_return_eligibility",
+        "text_09_syllabus_exceptions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_45_ranges",
+        "ca_31_transactions"
+      ]
+    },
+    {
+      "tasks": [
+        "text_45_museum_loans",
+        "text_36_restaurant_shifts"
+      ]
+    },
+    {
+      "tasks": [
+        "data_36_clinical_safety_followups",
+        "data_13_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "data_45_campus_ticket_risks",
+        "data_25_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_16_contract_termination",
+        "text_01_roommate_expenses"
+      ]
+    },
+    {
+      "tasks": [
+        "data_30_clinical_safety_followups",
+        "data_31_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_22_procurement_finance_review",
+        "data_20_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_17_csv",
+        "ca_42_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "data_46_campus_ticket_risks",
+        "data_02_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_49_real_estate_showings"
+      ]
+    },
+    {
+      "tasks": [
+        "data_43_campus_ticket_risks",
+        "data_09_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_27_initials",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "text_41_access_revocations",
+        "text_46_online_course_progress"
+      ]
+    }
+  ]
+}

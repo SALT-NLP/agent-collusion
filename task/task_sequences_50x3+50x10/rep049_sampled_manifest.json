@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_41_normalize",
+        "ca_16_window"
+      ]
+    },
+    {
+      "tasks": [
+        "text_02_family_medical_pickups",
+        "text_19_warehouse_substitutions"
+      ]
+    },
+    {
+      "tasks": [
+        "data_41_campus_ticket_risks",
+        "data_04_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_34_bio_experiment_results",
+        "text_11_instrument_calibration"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_43_acronym",
+        "ca_03_roman"
+      ]
+    },
+    {
+      "tasks": [
+        "data_10_support_case_escalations",
+        "data_34_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_45_museum_loans",
+        "text_09_syllabus_exceptions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_26_temperature",
+        "ca_34_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "text_28_promotion_exclusions",
+        "text_16_contract_termination"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_02_topn",
+        "ca_35_transactions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_10_dedupe",
+        "ca_05_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "text_27_return_eligibility",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_28_ranges",
+        "ca_42_buckets"
+      ]
+    }
+  ]
+}

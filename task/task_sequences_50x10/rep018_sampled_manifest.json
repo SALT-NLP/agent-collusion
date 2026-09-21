@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_49_phone",
+        "ca_36_date"
+      ]
+    },
+    {
+      "tasks": [
+        "text_11_instrument_calibration",
+        "text_02_family_medical_pickups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_03_support_case_escalations",
+        "data_30_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_40_campus_ticket_risks",
+        "data_12_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_19_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "text_08_algebra_constraints",
+        "text_12_player_availability"
+      ]
+    },
+    {
+      "tasks": [
+        "text_44_energy_outages",
+        "text_26_bug_triage_p0"
+      ]
+    },
+    {
+      "tasks": [
+        "data_33_clinical_safety_followups",
+        "data_49_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_42_news_timeline",
+        "text_20_hotel_requests"
+      ]
+    },
+    {
+      "tasks": [
+        "data_36_clinical_safety_followups",
+        "data_35_clinical_safety_followups"
+      ]
+    }
+  ]
+}

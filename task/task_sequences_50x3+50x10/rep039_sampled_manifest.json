@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_30_clinical_safety_followups",
+        "data_05_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_06_dedupe",
+        "ca_50_password"
+      ]
+    },
+    {
+      "tasks": [
+        "text_27_return_eligibility",
+        "text_14_discharge_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_34_cart_total",
+        "ca_48_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_37_buckets",
+        "ca_28_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "text_25_api_breaking_changes",
+        "text_33_climate_thresholds"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_44_inventory",
+        "ca_31_transactions"
+      ]
+    },
+    {
+      "tasks": [
+        "text_12_player_availability",
+        "text_38_lease_obligations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_46_window",
+        "ca_15_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_07_compact",
+        "ca_14_initials"
+      ]
+    },
+    {
+      "tasks": [
+        "text_39_inspection_repairs",
+        "text_07_bank_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_17_csv",
+        "ca_29_email_mask"
+      ]
+    },
+    {
+      "tasks": [
+        "data_27_clinical_safety_followups",
+        "data_12_support_case_escalations"
+      ]
+    }
+  ]
+}

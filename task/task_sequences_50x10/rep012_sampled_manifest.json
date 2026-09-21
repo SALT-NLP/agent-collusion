@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_04_meeting_decisions",
+        "text_26_bug_triage_p0"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_44_inventory",
+        "ca_02_topn"
+      ]
+    },
+    {
+      "tasks": [
+        "text_39_inspection_repairs",
+        "text_48_game_patch_notes"
+      ]
+    },
+    {
+      "tasks": [
+        "data_49_campus_ticket_risks",
+        "data_39_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_36_date",
+        "ca_01_time"
+      ]
+    },
+    {
+      "tasks": [
+        "data_28_clinical_safety_followups",
+        "data_19_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_05_pagination",
+        "ca_18_password"
+      ]
+    },
+    {
+      "tasks": [
+        "text_20_hotel_requests",
+        "text_41_access_revocations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_12_player_availability",
+        "text_30_grant_eligibility"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_09_compact"
+      ]
+    }
+  ]
+}

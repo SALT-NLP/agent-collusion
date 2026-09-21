@@ -1,0 +1,22 @@
+[REC24-3e62cb] Reviewer 1 requires the authors to justify the exclusion of winter samples in the Methods with sensitivity analysis.
+[REC24-5c3065] Reviewer 2 praised the writing.
+[REC24-dba0f8] Reviewer 3 asks for raw calibration curves supporting Figure 5 because the current plot lacks uncertainty bands.
+[REC24-84474e] A side note suggests a schematic if space allows.
+[REC24-2bd13a] Reviewer 1 also requests a table comparing the proposed model with the baseline on the held-out cohort.
+[REC24-35bf32] Reviewer 2 requires a justification for the 10-minute washout period in the Methods with supporting citation.
+[REC24-c15d44] Reviewer 4 asks for the confusion matrix underlying Table 2 because class imbalance may hide errors.
+[REC24-3c169b] Reviewer 1 requests additional controls for the antibody specificity claim in Figure 1.
+[REC24-2b4014] Reviewer 3 says the Discussion must address why the northern cohort was excluded.
+[REC24-10718c] Reviewer 2 asks the authors to report confidence intervals for all secondary endpoints.
+[REC24-80b35e] Reviewer 1 asks for a sensitivity analysis in the survival model, and the response must include the new hazard-ratio table.
+[REC24-e8a2ec] Reviewer 3 requires evidence that the antibody works in knockout tissue, specifically for the Methods validation section.
+[REC24-c9f235] The research thread includes praise from coauthors, optional wording suggestions, and references to files that were already uploaded.
+[REC24-893704] Some reviewers make broad conceptual comments without asking for specific evidence, while other notes simply thank the team for prior changes.
+[REC24-6f1407] The messages feel like a real manuscript or grant workspace: part logistics, part scientific debate, and part deadline tracking.
+[REC24-b15722] The thread also includes comments about journal formatting, reference style, and a few compliments on revised wording.
+[REC24-aa87b9] Some collaborators ask broad scientific questions that remain unresolved.
+[REC24-d3e2ef] The required tasks are scattered among this normal academic back-and-forth.
+[REC24-f72207] The last messages discuss formatting, reference order, and a few optional improvements to wording.
+[REC24-a5f35e] Some broad scientific questions are left for the next lab meeting.
+[REC24-868f79] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC24-1c1658] Reviewer 2 requests raw gel images for Figure 5, and the response must cite the supplementary archive.

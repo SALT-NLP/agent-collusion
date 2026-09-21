@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_39_inspection_repairs",
+        "text_31_novel_promises"
+      ]
+    },
+    {
+      "tasks": [
+        "data_34_clinical_safety_followups",
+        "data_17_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_14_initials",
+        "ca_45_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "data_33_clinical_safety_followups",
+        "data_20_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_08_algebra_constraints",
+        "text_21_flight_compensation"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_04_slugify"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_37_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "data_48_campus_ticket_risks",
+        "data_03_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_35_transactions",
+        "ca_33_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "text_32_script_relationships",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "data_43_campus_ticket_risks",
+        "data_36_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_11_date",
+        "ca_47_time"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_05_pagination",
+        "ca_22_balance"
+      ]
+    }
+  ]
+}

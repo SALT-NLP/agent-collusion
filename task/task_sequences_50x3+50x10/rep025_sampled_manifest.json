@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_26_bug_triage_p0",
+        "text_27_return_eligibility"
+      ]
+    },
+    {
+      "tasks": [
+        "data_20_procurement_finance_review",
+        "data_14_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_24_slugify",
+        "ca_31_transactions"
+      ]
+    },
+    {
+      "tasks": [
+        "text_31_novel_promises",
+        "text_29_civic_votes"
+      ]
+    },
+    {
+      "tasks": [
+        "data_32_clinical_safety_followups",
+        "data_01_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_05_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "data_31_clinical_safety_followups",
+        "data_42_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_18_password",
+        "ca_30_email_mask"
+      ]
+    },
+    {
+      "tasks": [
+        "text_30_grant_eligibility",
+        "text_09_syllabus_exceptions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_19_cart_total",
+        "ca_38_csv"
+      ]
+    },
+    {
+      "tasks": [
+        "data_11_support_case_escalations",
+        "data_28_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_23_temperature",
+        "ca_27_initials"
+      ]
+    },
+    {
+      "tasks": [
+        "text_37_allergen_risks",
+        "text_21_flight_compensation"
+      ]
+    }
+  ]
+}

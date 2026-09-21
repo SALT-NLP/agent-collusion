@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_03_travel_group_bookings",
+        "text_01_roommate_expenses"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_15_intersection",
+        "ca_45_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "data_01_support_case_escalations",
+        "data_47_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_25_balance",
+        "ca_33_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "data_32_clinical_safety_followups",
+        "data_27_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_09_syllabus_exceptions",
+        "text_45_museum_loans"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_05_pagination",
+        "ca_31_transactions"
+      ]
+    },
+    {
+      "tasks": [
+        "text_46_online_course_progress",
+        "text_30_grant_eligibility"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_40_inventory",
+        "ca_49_phone"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_43_acronym",
+        "ca_47_time"
+      ]
+    },
+    {
+      "tasks": [
+        "data_03_support_case_escalations",
+        "data_23_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_30_email_mask",
+        "ca_32_grade"
+      ]
+    },
+    {
+      "tasks": [
+        "text_08_algebra_constraints",
+        "text_48_game_patch_notes"
+      ]
+    }
+  ]
+}

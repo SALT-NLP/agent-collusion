@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_39_inspection_repairs",
+        "text_22_manuscript_revisions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_26_temperature",
+        "ca_05_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "data_16_procurement_finance_review",
+        "data_26_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_16_contract_termination",
+        "text_11_instrument_calibration"
+      ]
+    },
+    {
+      "tasks": [
+        "text_07_bank_anomalies",
+        "text_12_player_availability"
+      ]
+    },
+    {
+      "tasks": [
+        "data_28_clinical_safety_followups",
+        "data_46_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_04_slugify",
+        "ca_32_grade"
+      ]
+    },
+    {
+      "tasks": [
+        "data_11_support_case_escalations",
+        "data_30_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_39_topn",
+        "ca_25_balance"
+      ]
+    },
+    {
+      "tasks": [
+        "data_05_support_case_escalations",
+        "data_32_clinical_safety_followups"
+      ]
+    }
+  ]
+}

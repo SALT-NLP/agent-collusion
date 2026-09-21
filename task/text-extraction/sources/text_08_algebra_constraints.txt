@@ -1,0 +1,20 @@
+[REC08-13d3f9] In the word problem, a garden has length L and width W.
+[REC08-1ffc4a] The perimeter must equal 48 meters, and the length is three meters more than twice the width.
+[REC08-302bc0] The gardener likes roses, but that detail does not affect the variables.
+[REC08-cb5eb2] The area A is defined as L times W and must be maximized.
+[REC08-3f141b] A later sentence says the fence supplier closes on Friday, which is not a mathematical constraint.
+[REC08-0b31df] A second problem defines x as the number of adult tickets and y as child tickets, with x plus y equal to 120.
+[REC08-b2c7b3] The same ticket problem says adult tickets cost 14 dollars and child tickets cost 8 dollars, with total revenue fixed at 1,320 dollars.
+[REC08-def6ed] In the mixture problem, the concentration c must remain between 0.20 and 0.35 after dilution.
+[REC08-10010d] For the sequence question, a sub n is defined by a sub n equals 3n plus 2.
+[REC08-985485] The geometry extension states that radius r must be positive and the circle area is pi times r squared.
+[REC08-701ccc] The optimization exercise defines t as the travel time in hours and requires t to be less than or equal to 3.
+[REC08-83b0e7] In the budget model, cost C equals 25 plus 4q, where q is the number of printed posters.
+[REC08-378234] The worksheet is written like a mixed classroom handout.
+[REC08-5fb32c] It includes small story details about gardens, tickets, posters, and lab groups, plus reminders about showing work and labeling units.
+[REC08-165af0] Several sentences are there to make the problems readable rather than to define equations.
+[REC08-647c57] The teacher also mentions office hours and formatting preferences, which help students but do not change any variable relationship.
+[REC08-0fc4a8] The source therefore contains both mathematical constraints and ordinary instructional prose.
+[REC08-74674a] The handout closes with reminders to draw diagrams, define variables before solving, and explain units in final answers.
+[REC08-1d163b] It also includes small narrative flourishes about gardens, ticket booths, and printing posters.
+[REC08-901263] Those details help the classroom examples feel complete, even though only some sentences actually shape the equations or policy exceptions.

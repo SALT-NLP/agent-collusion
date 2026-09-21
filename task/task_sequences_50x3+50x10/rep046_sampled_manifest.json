@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_27_initials",
+        "ca_33_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "text_01_roommate_expenses",
+        "text_23_grant_materials"
+      ]
+    },
+    {
+      "tasks": [
+        "data_04_support_case_escalations",
+        "data_33_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_50_podcast_sponsor_terms",
+        "text_43_insurance_claims"
+      ]
+    },
+    {
+      "tasks": [
+        "data_50_campus_ticket_risks",
+        "data_08_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_24_slugify",
+        "ca_37_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "data_44_campus_ticket_risks",
+        "data_40_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_45_museum_loans"
+      ]
+    },
+    {
+      "tasks": [
+        "text_04_meeting_decisions",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_13_intersection",
+        "ca_47_time"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_35_transactions",
+        "ca_25_balance"
+      ]
+    },
+    {
+      "tasks": [
+        "text_41_access_revocations",
+        "text_46_online_course_progress"
+      ]
+    },
+    {
+      "tasks": [
+        "data_31_clinical_safety_followups",
+        "data_46_campus_ticket_risks"
+      ]
+    }
+  ]
+}

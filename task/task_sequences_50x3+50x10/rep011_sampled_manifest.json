@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_08_support_case_escalations",
+        "data_37_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_48_pagination",
+        "ca_44_inventory"
+      ]
+    },
+    {
+      "tasks": [
+        "text_07_bank_anomalies",
+        "text_13_match_turning_points"
+      ]
+    },
+    {
+      "tasks": [
+        "data_02_support_case_escalations",
+        "data_45_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_03_travel_group_bookings",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "text_04_meeting_decisions",
+        "text_35_astronomy_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "text_17_audit_remediation",
+        "text_34_bio_experiment_results"
+      ]
+    },
+    {
+      "tasks": [
+        "data_38_clinical_safety_followups",
+        "data_31_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_32_grade",
+        "ca_15_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "data_03_support_case_escalations",
+        "data_05_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_18_password",
+        "ca_03_roman"
+      ]
+    },
+    {
+      "tasks": [
+        "text_28_promotion_exclusions",
+        "text_14_discharge_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_48_campus_ticket_risks",
+        "data_28_clinical_safety_followups"
+      ]
+    }
+  ]
+}

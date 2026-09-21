@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_50_campus_ticket_risks",
+        "data_39_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_20_hotel_requests",
+        "text_24_reviewer_must_respond"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_26_temperature",
+        "ca_19_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_47_time",
+        "ca_29_email_mask"
+      ]
+    },
+    {
+      "tasks": [
+        "data_02_support_case_escalations",
+        "data_15_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_04_slugify",
+        "ca_45_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "text_29_civic_votes",
+        "text_11_instrument_calibration"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_22_balance",
+        "ca_08_phone"
+      ]
+    },
+    {
+      "tasks": [
+        "data_03_support_case_escalations",
+        "data_42_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_16_window",
+        "ca_39_topn"
+      ]
+    },
+    {
+      "tasks": [
+        "text_27_return_eligibility",
+        "text_46_online_course_progress"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_09_compact",
+        "ca_21_roman"
+      ]
+    },
+    {
+      "tasks": [
+        "data_37_clinical_safety_followups",
+        "data_34_clinical_safety_followups"
+      ]
+    }
+  ]
+}

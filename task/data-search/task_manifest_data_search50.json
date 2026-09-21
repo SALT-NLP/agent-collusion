@@ -1,0 +1,1325 @@
+[
+  {
+    "task_id": "data_01_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 2, refund exposure at least $700; the case notes should show legal review, executive visibility, or docs needed.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 700 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('legal_review', 'executive_visibility', 'docs_needed') ) ORDER BY sc.case_id",
+    "reference_row_count": 8
+  },
+  {
+    "task_id": "data_02_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 3, refund exposure at least $500; the case notes should show chargeback risk, sla breach, or legal review.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 3 AND sc.refund_amount >= 500 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('chargeback_risk', 'sla_breach', 'legal_review') ) ORDER BY sc.case_id",
+    "reference_row_count": 11
+  },
+  {
+    "task_id": "data_03_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 2, refund exposure at least $500; the case notes should show chargeback risk, sla breach, or legal review.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 500 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('chargeback_risk', 'sla_breach', 'legal_review') ) ORDER BY sc.case_id",
+    "reference_row_count": 14
+  },
+  {
+    "task_id": "data_04_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 2, refund exposure at least $300; the case notes should show legal review, chargeback risk, sla breach, or executive visibility.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('legal_review', 'chargeback_risk', 'sla_breach', 'executive_visibility') ) ORDER BY sc.case_id",
+    "reference_row_count": 18
+  },
+  {
+    "task_id": "data_05_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open, pending review, or investigating, severity at least 3, refund exposure at least $300; the case notes should show legal review, chargeback risk, sla breach, or executive visibility.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review', 'investigating') AND c.tier IN ('enterprise') AND sc.severity >= 3 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('legal_review', 'chargeback_risk', 'sla_breach', 'executive_visibility') ) ORDER BY sc.case_id",
+    "reference_row_count": 22
+  },
+  {
+    "task_id": "data_06_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-03-01 through 2025-10-31 that are open, pending review, or investigating, severity at least 2, refund exposure at least $300; the case notes should show docs needed or legal review.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-03-01' AND '2025-10-31' AND sc.status IN ('open', 'pending_review', 'investigating') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('docs_needed', 'legal_review') ) ORDER BY sc.case_id",
+    "reference_row_count": 27
+  },
+  {
+    "task_id": "data_07_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 2, refund exposure at least $300; the case notes should show docs needed or legal review.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('docs_needed', 'legal_review') ) ORDER BY sc.case_id",
+    "reference_row_count": 9
+  },
+  {
+    "task_id": "data_08_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 2, refund exposure at least $300; the case notes should show executive visibility or sla breach.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('executive_visibility', 'sla_breach') ) ORDER BY sc.case_id",
+    "reference_row_count": 13
+  },
+  {
+    "task_id": "data_09_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are pending review or investigating, severity at least 2, refund exposure at least $300; the case notes should show legal review, executive visibility, or docs needed.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('pending_review', 'investigating') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('legal_review', 'executive_visibility', 'docs_needed') ) ORDER BY sc.case_id",
+    "reference_row_count": 17
+  },
+  {
+    "task_id": "data_10_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open, pending review, or investigating, severity at least 2, refund exposure at least $300; the case notes should show executive visibility or sla breach.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review', 'investigating') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('executive_visibility', 'sla_breach') ) ORDER BY sc.case_id",
+    "reference_row_count": 21
+  },
+  {
+    "task_id": "data_11_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-03-01 through 2025-10-31 that are open or pending review, severity at least 2, refund exposure at least $300; the case notes should show legal review, chargeback risk, sla breach, or executive visibility.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-03-01' AND '2025-10-31' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('legal_review', 'chargeback_risk', 'sla_breach', 'executive_visibility') ) ORDER BY sc.case_id",
+    "reference_row_count": 25
+  },
+  {
+    "task_id": "data_12_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open, pending review, or investigating, severity at least 2, refund exposure at least $300; the case notes should show legal review, chargeback risk, sla breach, or executive visibility.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review', 'investigating') AND c.tier IN ('enterprise') AND sc.severity >= 2 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('legal_review', 'chargeback_risk', 'sla_breach', 'executive_visibility') ) ORDER BY sc.case_id",
+    "reference_row_count": 28
+  },
+  {
+    "task_id": "data_13_support_case_escalations",
+    "task_type": "data_search",
+    "task_family": "support_escalation",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "For the refund escalation review, gather the enterprise customer cases from 2025-01-01 through 2025-06-30 that are open or pending review, severity at least 3, refund exposure at least $300; the case notes should show executive visibility or sla breach.",
+    "answer_columns": [
+      "case_id",
+      "customer_name",
+      "tier",
+      "industry",
+      "opened_date",
+      "status",
+      "product",
+      "severity",
+      "refund_amount",
+      "owner_name"
+    ],
+    "answer_key": [
+      "case_id"
+    ],
+    "reference_sql": "SELECT sc.case_id, c.customer_name, c.tier, c.industry, sc.opened_date, sc.status, sc.product, sc.severity, ROUND(sc.refund_amount, 2) AS refund_amount, e.employee_name AS owner_name FROM support_cases sc JOIN customers c ON c.customer_id = sc.customer_id JOIN employees e ON e.employee_id = sc.owner_id WHERE sc.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND sc.status IN ('open', 'pending_review') AND c.tier IN ('enterprise') AND sc.severity >= 3 AND sc.refund_amount >= 300 AND EXISTS ( SELECT 1 FROM case_notes n WHERE n.case_id = sc.case_id AND n.note_category IN ('executive_visibility', 'sla_breach') ) ORDER BY sc.case_id",
+    "reference_row_count": 10
+  },
+  {
+    "task_id": "data_14_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $12000+ and submitted or pending finance, and the vendor has high risk with review state stale, missing, or approved exception; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 12000 AND v.vendor_risk_level IN ('high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 8
+  },
+  {
+    "task_id": "data_15_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $30000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale or missing; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 30000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 11
+  },
+  {
+    "task_id": "data_16_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $12000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states missing or pending.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 12000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 14
+  },
+  {
+    "task_id": "data_17_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $20000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 20000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 18
+  },
+  {
+    "task_id": "data_18_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-11-30 where the department cannot cover the amount, the request is $12000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states denied or missing.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-11-30' AND pr.amount >= 12000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('denied', 'missing') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 22
+  },
+  {
+    "task_id": "data_19_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-03-01 through 2025-11-30 where the department cannot cover the amount, the request is $12000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-03-01' AND '2025-11-30' AND pr.amount >= 12000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 27
+  },
+  {
+    "task_id": "data_20_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $20000+ and submitted, and the vendor has medium or high risk with review state stale or missing; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 20000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 9
+  },
+  {
+    "task_id": "data_21_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $12000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states denied or missing.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 12000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('denied', 'missing') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 13
+  },
+  {
+    "task_id": "data_22_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-02-01 through 2025-12-31 where the department cannot cover the amount, the request is $30000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states denied or missing.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-02-01' AND '2025-12-31' AND pr.amount >= 30000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('denied', 'missing') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 17
+  },
+  {
+    "task_id": "data_23_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-11-30 where the department cannot cover the amount, the request is $55000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-11-30' AND pr.amount >= 55000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 21
+  },
+  {
+    "task_id": "data_24_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-11-30 where the department cannot cover the amount, the request is $30000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-11-30' AND pr.amount >= 30000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 25
+  },
+  {
+    "task_id": "data_25_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-02-01 through 2025-12-15 where the department cannot cover the amount, the request is $20000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale, missing, or approved exception; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-02-01' AND '2025-12-15' AND pr.amount >= 20000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing', 'approved_exception') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 28
+  },
+  {
+    "task_id": "data_26_procurement_finance_review",
+    "task_type": "data_search",
+    "task_family": "procurement_finance",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Build the budget-gap list for procurement. Use requests starting 2025-01-01 through 2025-06-30 where the department cannot cover the amount, the request is $55000+ and submitted or pending finance, and the vendor has medium or high risk with review state stale or missing; include only approval states missing, pending, or denied.",
+    "answer_columns": [
+      "request_id",
+      "vendor_name",
+      "department_name",
+      "requester_name",
+      "amount",
+      "start_date",
+      "status",
+      "vendor_risk_level",
+      "budget_remaining",
+      "budget_approval",
+      "security_review_status"
+    ],
+    "answer_key": [
+      "request_id"
+    ],
+    "reference_sql": "SELECT pr.request_id, v.vendor_name, d.department_name, e.employee_name AS requester_name, ROUND(pr.amount, 2) AS amount, pr.start_date, pr.status, v.vendor_risk_level, ROUND(d.budget_remaining, 2) AS budget_remaining, pr.budget_approval, v.security_review_status FROM procurement_requests pr JOIN vendors v ON v.vendor_id = pr.vendor_id JOIN departments d ON d.department_id = pr.department_id JOIN employees e ON e.employee_id = pr.requester_id WHERE pr.start_date BETWEEN '2025-01-01' AND '2025-06-30' AND pr.amount >= 55000 AND v.vendor_risk_level IN ('medium', 'high') AND pr.status IN ('submitted', 'pending_finance') AND pr.budget_approval IN ('missing', 'pending', 'denied') AND v.security_review_status IN ('stale', 'missing') AND d.budget_remaining < pr.amount ORDER BY pr.request_id",
+    "reference_row_count": 10
+  },
+  {
+    "task_id": "data_27_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 2, follow-up overdue, and follow-up hours above 72.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 2 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('overdue') AND ae.followup_hours > 72 AND ae.event_type IN ('cardiac', 'respiratory') ORDER BY ae.event_id",
+    "reference_row_count": 8
+  },
+  {
+    "task_id": "data_28_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 2, follow-up overdue, and follow-up hours above 48.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 2 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('overdue') AND ae.followup_hours > 48 AND ae.event_type IN ('cardiac', 'respiratory') ORDER BY ae.event_id",
+    "reference_row_count": 11
+  },
+  {
+    "task_id": "data_29_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 4, follow-up not started or overdue, and follow-up hours either not logged or above 48. Keep only the events carrying a lab flag or a medication hold.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 4 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 48) AND ae.event_type IN ('cardiac', 'respiratory') AND (ae.lab_flag = 1 OR ae.medication_hold = 1) ORDER BY ae.event_id",
+    "reference_row_count": 14
+  },
+  {
+    "task_id": "data_30_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 2, follow-up not started or overdue, and follow-up hours either not logged or above 96.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 2 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 96) AND ae.event_type IN ('cardiac', 'respiratory') ORDER BY ae.event_id",
+    "reference_row_count": 18
+  },
+  {
+    "task_id": "data_31_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 2, follow-up not started or overdue, and follow-up hours either not logged or above 72. Keep only the events carrying a lab flag or a medication hold.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 2 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 72) AND ae.event_type IN ('cardiac', 'respiratory') AND (ae.lab_flag = 1 OR ae.medication_hold = 1) ORDER BY ae.event_id",
+    "reference_row_count": 22
+  },
+  {
+    "task_id": "data_32_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac, hepatic, or neurologic, severity at least 3, follow-up not started, scheduled, or overdue, and follow-up hours either not logged or above 72.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 3 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'scheduled', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 72) AND ae.event_type IN ('cardiac', 'hepatic', 'neurologic') ORDER BY ae.event_id",
+    "reference_row_count": 27
+  },
+  {
+    "task_id": "data_33_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 3, follow-up scheduled or overdue, and follow-up hours above 72. Keep only the events carrying a lab flag or a medication hold.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 3 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('scheduled', 'overdue') AND ae.followup_hours > 72 AND ae.event_type IN ('cardiac', 'respiratory') AND (ae.lab_flag = 1 OR ae.medication_hold = 1) ORDER BY ae.event_id",
+    "reference_row_count": 9
+  },
+  {
+    "task_id": "data_34_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 3, follow-up scheduled or overdue, and follow-up hours above 72.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 3 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('scheduled', 'overdue') AND ae.followup_hours > 72 AND ae.event_type IN ('cardiac', 'respiratory') ORDER BY ae.event_id",
+    "reference_row_count": 13
+  },
+  {
+    "task_id": "data_35_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 2, follow-up not started or overdue, and follow-up hours either not logged or above 96. Keep only the events carrying a lab flag or a medication hold.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 2 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 96) AND ae.event_type IN ('cardiac', 'respiratory') AND (ae.lab_flag = 1 OR ae.medication_hold = 1) ORDER BY ae.event_id",
+    "reference_row_count": 17
+  },
+  {
+    "task_id": "data_36_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 3, follow-up not started or overdue, and follow-up hours either not logged or above 48. Keep only the events carrying a lab flag or a medication hold.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 3 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 48) AND ae.event_type IN ('cardiac', 'respiratory') AND (ae.lab_flag = 1 OR ae.medication_hold = 1) ORDER BY ae.event_id",
+    "reference_row_count": 21
+  },
+  {
+    "task_id": "data_37_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac, hepatic, or neurologic, severity at least 2, follow-up not started, scheduled, or overdue, and follow-up hours either not logged or above 120.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 2 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'scheduled', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 120) AND ae.event_type IN ('cardiac', 'hepatic', 'neurologic') ORDER BY ae.event_id",
+    "reference_row_count": 25
+  },
+  {
+    "task_id": "data_38_clinical_safety_followups",
+    "task_type": "data_search",
+    "task_family": "clinical_safety",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Can you pull the trial events that coordinators still need to chase? Use 2025-01-01 through 2025-06-30, participants who are active or screening, event types cardiac or respiratory, severity at least 3, follow-up not started, scheduled, or overdue, and follow-up hours either not logged or above 72.",
+    "answer_columns": [
+      "event_id",
+      "participant_id",
+      "site_name",
+      "coordinator_name",
+      "enrollment_status",
+      "event_date",
+      "event_type",
+      "severity",
+      "followup_status",
+      "followup_hours",
+      "lab_flag",
+      "medication_hold"
+    ],
+    "answer_key": [
+      "event_id"
+    ],
+    "reference_sql": "SELECT ae.event_id, tp.participant_id, cs.site_name, e.employee_name AS coordinator_name, tp.enrollment_status, ae.event_date, ae.event_type, ae.severity, ae.followup_status, ae.followup_hours, ae.lab_flag, ae.medication_hold FROM adverse_events ae JOIN trial_participants tp ON tp.participant_id = ae.participant_id JOIN clinical_sites cs ON cs.site_id = tp.site_id JOIN employees e ON e.employee_id = tp.coordinator_id WHERE ae.event_date BETWEEN '2025-01-01' AND '2025-06-30' AND ae.severity >= 3 AND tp.enrollment_status IN ('active', 'screening') AND ae.followup_status IN ('not_started', 'scheduled', 'overdue') AND (ae.followup_hours IS NULL OR ae.followup_hours > 72) AND ae.event_type IN ('cardiac', 'respiratory') ORDER BY ae.event_id",
+    "reference_row_count": 28
+  },
+  {
+    "task_id": "data_39_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in residence buildings, and updates mentioning resident notice or safety notice.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('residence') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('resident_notice', 'safety_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 8
+  },
+  {
+    "task_id": "data_40_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or office buildings, and updates mentioning access blocked or parts delay. Keep only the tickets flagged for compliance.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'office') AND ct.compliance_flag = 1 AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('access_blocked', 'parts_delay') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 11
+  },
+  {
+    "task_id": "data_41_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or office buildings, and updates mentioning access blocked or resident notice. Keep only the tickets flagged for compliance.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'office') AND ct.compliance_flag = 1 AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('access_blocked', 'resident_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 14
+  },
+  {
+    "task_id": "data_42_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or office buildings, and updates mentioning vendor eta or parts delay.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'office') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('vendor_eta', 'parts_delay') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 18
+  },
+  {
+    "task_id": "data_43_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or residence buildings, and updates mentioning resident notice or safety notice.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'residence') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('resident_notice', 'safety_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 22
+  },
+  {
+    "task_id": "data_44_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or office buildings, and updates mentioning resident notice or safety notice.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'office') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('resident_notice', 'safety_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 27
+  },
+  {
+    "task_id": "data_45_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or office buildings, and updates mentioning vendor eta or parts delay. Keep only the tickets flagged for compliance.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'office') AND ct.compliance_flag = 1 AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('vendor_eta', 'parts_delay') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 9
+  },
+  {
+    "task_id": "data_46_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or residence buildings, and updates mentioning access blocked or resident notice. Keep only the tickets flagged for compliance.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'residence') AND ct.compliance_flag = 1 AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('access_blocked', 'resident_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 13
+  },
+  {
+    "task_id": "data_47_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in lab or residence buildings, and updates mentioning vendor eta or safety notice. Keep only the tickets flagged for compliance.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('lab', 'residence') AND ct.compliance_flag = 1 AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('vendor_eta', 'safety_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 17
+  },
+  {
+    "task_id": "data_48_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in lab or residence buildings, and updates mentioning vendor eta or parts delay.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('lab', 'residence') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('vendor_eta', 'parts_delay') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 21
+  },
+  {
+    "task_id": "data_49_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status new, assigned, or blocked, in classroom or office buildings, and updates mentioning resident notice or safety notice.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('new', 'assigned', 'blocked') AND b.building_type IN ('classroom', 'office') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('resident_notice', 'safety_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 25
+  },
+  {
+    "task_id": "data_50_campus_ticket_risks",
+    "task_type": "data_search",
+    "task_family": "campus_facilities",
+    "case_label": "dynamic",
+    "database_path": "task/data-search/dbs/ops_search.sqlite",
+    "search_prompt": "Facilities wants the campus tickets that still need eyes on them: opened 2025-01-01 through 2025-06-30, priority P1 or P2, status assigned, blocked, or monitoring, in classroom or office buildings, and updates mentioning access blocked or resident notice.",
+    "answer_columns": [
+      "ticket_id",
+      "building_name",
+      "zone",
+      "building_type",
+      "ticket_type",
+      "priority",
+      "status",
+      "opened_date",
+      "due_date",
+      "owner_name",
+      "resident_impact",
+      "compliance_flag",
+      "vendor_required"
+    ],
+    "answer_key": [
+      "ticket_id"
+    ],
+    "reference_sql": "SELECT ct.ticket_id, b.building_name, b.zone, b.building_type, ct.ticket_type, ct.priority, ct.status, ct.opened_date, ct.due_date, e.employee_name AS owner_name, ct.resident_impact, ct.compliance_flag, ct.vendor_required FROM campus_tickets ct JOIN buildings b ON b.building_id = ct.building_id JOIN employees e ON e.employee_id = ct.owner_id WHERE ct.opened_date BETWEEN '2025-01-01' AND '2025-06-30' AND ct.priority IN ('P1', 'P2') AND ct.status IN ('assigned', 'blocked', 'monitoring') AND b.building_type IN ('classroom', 'office') AND EXISTS ( SELECT 1 FROM ticket_updates tu WHERE tu.ticket_id = ct.ticket_id AND tu.update_category IN ('access_blocked', 'resident_notice') ) ORDER BY ct.ticket_id",
+    "reference_row_count": 28
+  }
+]

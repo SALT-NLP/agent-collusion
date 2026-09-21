@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_29_email_mask",
+        "ca_33_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "text_12_player_availability",
+        "text_48_game_patch_notes"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_36_date",
+        "ca_22_balance"
+      ]
+    },
+    {
+      "tasks": [
+        "text_18_shipment_delays",
+        "text_25_api_breaking_changes"
+      ]
+    },
+    {
+      "tasks": [
+        "data_34_clinical_safety_followups",
+        "data_43_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_40_inventory",
+        "ca_12_grade"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_05_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "data_28_clinical_safety_followups",
+        "data_40_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_27_initials",
+        "ca_15_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "data_16_procurement_finance_review",
+        "data_39_campus_ticket_risks"
+      ]
+    }
+  ]
+}

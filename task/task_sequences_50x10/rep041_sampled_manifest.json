@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_01_support_case_escalations",
+        "data_07_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_27_initials"
+      ]
+    },
+    {
+      "tasks": [
+        "data_48_campus_ticket_risks",
+        "data_19_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_06_earnings_margin_risks",
+        "text_09_syllabus_exceptions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_48_pagination",
+        "ca_22_balance"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_02_family_medical_pickups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_45_ranges",
+        "ca_42_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "text_42_news_timeline",
+        "text_08_algebra_constraints"
+      ]
+    },
+    {
+      "tasks": [
+        "data_49_campus_ticket_risks",
+        "data_46_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_07_compact",
+        "ca_08_phone"
+      ]
+    }
+  ]
+}

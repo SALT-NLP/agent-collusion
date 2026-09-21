@@ -1,0 +1,9 @@
+# Runtime dependencies for the collusion-safety experiments package.
+# Pins match the versions the experiments were last validated against.
+litellm==1.94.1
+openai==2.52.0
+# Bedrock request signing for API-key and SigV4 authentication.
+boto3==1.43.62
+# Execute agent-generated Python tests.
+pytest==9.1.1
+python-dotenv==1.2.2

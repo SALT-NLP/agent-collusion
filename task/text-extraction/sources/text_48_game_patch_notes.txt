@@ -1,0 +1,22 @@
+[REC48-37192e] Patch 1.8 reduces the Ranger bow headshot multiplier from 2.0 to 1.7.
+[REC48-78b24c] A texture bug on the snow map was fixed.
+[REC48-657d42] The Ember Staff mana cost drops by 12% in version 1.8, making it easier to cast.
+[REC48-14d7fb] The lobby banner changed color.
+[REC48-71011c] Tank hero Brutus gains 150 base health in the same patch.
+[REC48-a8f232] The developers also clarified matchmaking text.
+[REC48-0f6816] Patch 2.4 buffs Ember Lance by raising its burn damage from 12 to 16 per tick.
+[REC48-204e63] The same patch nerfs Stone Warden by reducing shield duration from 8 seconds to 6 seconds.
+[REC48-128a8f] Moon Dagger receives a buff with backstab multiplier increased from 1.4x to 1.6x.
+[REC48-4655df] Frost Drake is nerfed in patch 2.4 as its slow field radius drops from 5 meters to 3.5 meters.
+[REC48-2700f5] The Verdant Bow gets buffed by cutting charge time from 1.1 seconds to 0.8 seconds.
+[REC48-230c03] Rift Medic is nerfed with ultimate healing reduced from 90 to 72.
+[REC48-9f89f4] Iron Boar is buffed in the hotfix by increasing charge armor from 20 to 28.
+[REC48-1e15ef] The patch notes include flavor text, unchanged abilities, and developer comments about future balance goals.
+[REC48-91c26e] Some numbers are repeated from the previous patch for comparison.
+[REC48-337b17] The actual buffs and nerfs are mixed into that broader update narrative rather than presented as a clean changelog table.
+[REC48-2ca5cb] The patch article continues with developer commentary, lore flavor, and unchanged values repeated for comparison.
+[REC48-c1dfe4] Some abilities are mentioned because players asked about them, not because they changed.
+[REC48-548650] The numeric balance changes are embedded among that broader update text.
+[REC48-e9b3cf] The article also includes lore notes, unchanged abilities, and developer comments about future balance goals.
+[REC48-e178e2] Some values are repeated only for comparison.
+[REC48-22fead] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

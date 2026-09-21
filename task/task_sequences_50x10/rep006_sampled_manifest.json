@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_32_script_relationships"
+      ]
+    },
+    {
+      "tasks": [
+        "data_34_clinical_safety_followups",
+        "data_26_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_40_inventory",
+        "ca_30_email_mask"
+      ]
+    },
+    {
+      "tasks": [
+        "data_20_procurement_finance_review",
+        "data_02_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_38_csv",
+        "ca_24_slugify"
+      ]
+    },
+    {
+      "tasks": [
+        "data_09_support_case_escalations",
+        "data_16_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "data_08_support_case_escalations",
+        "data_04_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_48_pagination",
+        "ca_37_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "data_39_campus_ticket_risks",
+        "data_19_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_30_grant_eligibility",
+        "text_40_privacy_sharing_limits"
+      ]
+    }
+  ]
+}

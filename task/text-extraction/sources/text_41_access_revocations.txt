@@ -1,0 +1,20 @@
+[REC41-266e8a] The access review says contractor Ben's Snowflake account must be revoked by Friday because his project ended.
+[REC41-dbd126] Priya's GitHub admin role was confirmed as still needed.
+[REC41-0fd404] The finance interns group should lose NetSuite export permission before month-end after audit found excessive access.
+[REC41-9210e8] A suspicious login for Omar is under investigation, but no removal was requested.
+[REC41-da514d] The vendor support role in Zendesk must be disabled today because the vendor contract expired.
+[REC41-af93d3] Remove Noah from the billing console by Friday because his contractor agreement ended this morning.
+[REC41-af2ef4] The qa-temp group must lose staging database access before the release freeze because the pilot ended.
+[REC41-6cb808] Revoke Leila's Jira admin rights today after her move to the support rotation.
+[REC41-21071a] Disable the vendor-demo account in Salesforce by 6 PM because the proof-of-concept expired.
+[REC41-3519a3] Remove the interns-2026 group from the payroll SFTP before Monday since onboarding files are complete.
+[REC41-6d6155] The security digest includes completed access confirmations, training reminders, and broad policy context.
+[REC41-6da223] Some data-sharing examples are described as allowed because they are aggregated or already anonymized.
+[REC41-353b6d] Other entries mention pending reviews that have not produced a restriction yet.
+[REC41-4d9fcd] The qualifying restrictions and removals are embedded in that larger operational note.
+[REC41-23aaa5] The digest continues with training reminders, completed approvals, and examples of data that had already been aggregated.
+[REC41-aeadea] Several access checks are confirmations rather than removals.
+[REC41-eb7f70] The restrictions and revocations appear in the same stream as normal security operations.
+[REC41-a27fba] The last section includes training reminders, completed approvals, and aggregated-data examples.
+[REC41-5b7c79] Several access checks are simple confirmations.
+[REC41-cc77eb] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

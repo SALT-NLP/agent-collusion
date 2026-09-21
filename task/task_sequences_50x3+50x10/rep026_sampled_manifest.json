@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_25_api_breaking_changes",
+        "text_19_warehouse_substitutions"
+      ]
+    },
+    {
+      "tasks": [
+        "data_34_clinical_safety_followups",
+        "data_40_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_17_csv",
+        "ca_47_time"
+      ]
+    },
+    {
+      "tasks": [
+        "data_13_support_case_escalations",
+        "data_18_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_01_roommate_expenses",
+        "text_18_shipment_delays"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "text_24_reviewer_must_respond",
+        "text_29_civic_votes"
+      ]
+    },
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_07_bank_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "text_02_family_medical_pickups",
+        "text_46_online_course_progress"
+      ]
+    },
+    {
+      "tasks": [
+        "data_04_support_case_escalations",
+        "data_23_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "data_21_procurement_finance_review",
+        "data_47_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_09_compact",
+        "ca_36_date"
+      ]
+    },
+    {
+      "tasks": [
+        "text_26_bug_triage_p0",
+        "text_28_promotion_exclusions"
+      ]
+    }
+  ]
+}

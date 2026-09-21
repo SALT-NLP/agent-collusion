@@ -1,0 +1,21 @@
+[REC10-f6d93a] The cryostat log reports that the Hall probe on channel B read 1.8 tesla while the calibration field should have been 2.0 plus or minus 0.03 tesla; Jules suspects thermal drift after the overnight warmup.
+[REC10-e2fe95] The vacuum gauge stayed at its normal baseline.
+[REC10-497603] During the optics run, the photodiode dark current jumped to 14 nanoamps against a usual 3 nanoamp baseline, likely from a loose shield.
+[REC10-2dd64e] A note says the spare lens cabinet was reorganized.
+[REC10-b85cf6] The scintillator counter showed 420 counts per second when the background run expected under 250, and the team suspects residual source contamination.
+[REC10-a73453] The interferometer drifted to 0.42 fringes per minute even though the baseline is below 0.05, so the bench must be isolated before the next trial.
+[REC10-074f47] The Hall probe read 18.7 mT at zero coil current; the expected baseline is under 0.3 mT, requiring a cable check.
+[REC10-12890a] The vacuum gauge held at 9.1e-3 torr when the pump spec expects 2.0e-4 torr, so the chamber seal needs inspection.
+[REC10-dfa168] The photodiode output saturated at 4.9 V under the dim calibration LED, while previous runs stayed near 1.2 V.
+[REC10-2f6b7e] The torsion balance period jumped to 31 seconds against an expected 24 to 25 second range, so the fiber clamp must be reset.
+[REC10-e2abf5] The thermocouple logged 12 C in the ice bath although the acceptable reading is 0 C plus or minus 0.5 C.
+[REC10-638f76] The oscilloscope trace showed a 6.8 kHz ripple where the reference supply should remain below 0.5 kHz, requiring power-supply isolation.
+[REC10-037dfd] The notebook reads like a real lab handoff, with normal checks, maintenance comments, and a few observations from nearby equipment.
+[REC10-d61b28] Some entries mention cabinets being reorganized, spare cables being returned, or routine warmup steps finishing on time.
+[REC10-f148ef] Other passages report stable readings that match the expected baseline.
+[REC10-395da8] The anomalous measurements sit among those ordinary notes, which makes the source less like a list and more like a working lab record.
+[REC10-60b1d5] The handoff also mentions who borrowed the alignment mirror, where the spare adapters were stored, and which station still needs cleanup.
+[REC10-a82c65] Several normal readings are recorded because the next team will want them for comparison.
+[REC10-1bbca2] The result is a dense notebook entry with anomalous checks surrounded by ordinary experimental housekeeping.
+[REC10-be1e37] The magnetometer showed 4.4 microtesla drift against a normal 0.6 microtesla baseline, likely from the elevator motor.
+[REC10-3defa1] The laser power meter read 72 mW while the alignment setting should hold near 50 mW, suggesting a stuck attenuator.

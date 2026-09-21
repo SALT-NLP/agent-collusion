@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_42_campus_ticket_risks",
+        "data_21_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_07_bank_anomalies",
+        "text_10_lab_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "data_20_procurement_finance_review",
+        "data_22_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "data_24_procurement_finance_review",
+        "data_43_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_32_script_relationships",
+        "text_24_reviewer_must_respond"
+      ]
+    },
+    {
+      "tasks": [
+        "text_39_inspection_repairs",
+        "text_22_manuscript_revisions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_18_password",
+        "ca_38_csv"
+      ]
+    },
+    {
+      "tasks": [
+        "text_40_privacy_sharing_limits",
+        "text_50_podcast_sponsor_terms"
+      ]
+    },
+    {
+      "tasks": [
+        "data_15_procurement_finance_review",
+        "data_32_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_45_museum_loans",
+        "text_11_instrument_calibration"
+      ]
+    }
+  ]
+}

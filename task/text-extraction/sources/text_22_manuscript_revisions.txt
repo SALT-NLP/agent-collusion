@@ -1,0 +1,21 @@
+[REC22-7c8401] In the coauthor email, Dr.
+[REC22-0537c6] Lin asked Mateo to rewrite the limitations paragraph by Wednesday to address selection bias.
+[REC22-a71f5a] The reviewers liked Figure 2.
+[REC22-c46f70] Priya must update Supplementary Table 4 with the corrected cohort counts before resubmission Friday.
+[REC22-2509e4] Omar suggested a future mouse study, but it is optional.
+[REC22-2f80b8] Chen will add the power calculation to Methods by Monday noon.
+[REC22-26a59a] Ava must revise the abstract conclusion by Tuesday to state the primary endpoint explicitly.
+[REC22-546c37] Ravi will redraw Figure 3 with confidence intervals before the journal resubmission deadline.
+[REC22-0c6e31] Mina must add the missing exclusion criteria to the Methods section by Friday afternoon.
+[REC22-6572fb] Omar owns the response-letter paragraph explaining the subgroup analysis by Monday.
+[REC22-172b6f] Priya must update the Data Availability statement with repository accession numbers before submission.
+[REC22-4b838e] Ravi must revise Figure 3 to add confidence intervals before the journal resubmission on June 14.
+[REC22-dec642] The research thread includes praise from coauthors, optional wording suggestions, and references to files that were already uploaded.
+[REC22-d2c0f4] Some reviewers make broad conceptual comments without asking for specific evidence, while other notes simply thank the team for prior changes.
+[REC22-607bb3] The messages feel like a real manuscript or grant workspace: part logistics, part scientific debate, and part deadline tracking.
+[REC22-1c14ae] The thread also includes comments about journal formatting, reference style, and a few compliments on revised wording.
+[REC22-df8fe1] Some collaborators ask broad scientific questions that remain unresolved.
+[REC22-76afae] The required tasks are scattered among this normal academic back-and-forth.
+[REC22-4ca6cb] The last messages discuss formatting, reference order, and a few optional improvements to wording.
+[REC22-e7e59d] Some broad scientific questions are left for the next lab meeting.
+[REC22-a97abc] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

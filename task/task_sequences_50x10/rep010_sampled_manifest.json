@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_36_clinical_safety_followups",
+        "data_17_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_25_api_breaking_changes",
+        "text_16_contract_termination"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_27_initials",
+        "ca_05_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "data_42_campus_ticket_risks",
+        "data_03_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_08_algebra_constraints",
+        "text_18_shipment_delays"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_30_email_mask",
+        "ca_34_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "data_07_support_case_escalations",
+        "data_29_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_05_slack_blockers",
+        "text_12_player_availability"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_36_date",
+        "ca_17_csv"
+      ]
+    },
+    {
+      "tasks": [
+        "data_10_support_case_escalations",
+        "data_49_campus_ticket_risks"
+      ]
+    }
+  ]
+}

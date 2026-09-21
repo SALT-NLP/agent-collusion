@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_10_dedupe",
+        "ca_14_initials"
+      ]
+    },
+    {
+      "tasks": [
+        "data_05_support_case_escalations",
+        "data_22_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_16_contract_termination",
+        "text_29_civic_votes"
+      ]
+    },
+    {
+      "tasks": [
+        "data_49_campus_ticket_risks",
+        "data_08_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_23_grant_materials",
+        "text_46_online_course_progress"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_33_normalize",
+        "ca_11_date"
+      ]
+    },
+    {
+      "tasks": [
+        "data_25_procurement_finance_review",
+        "data_45_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "data_12_support_case_escalations",
+        "data_37_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_42_news_timeline",
+        "text_12_player_availability"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_39_topn",
+        "ca_23_temperature"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[REC38-fa6baa] The lease says the tenant must report plumbing leaks within 24 hours of discovery.
+[REC38-09f6e3] The rooftop deck is available seasonally.
+[REC38-cf4bbb] The landlord must return the security deposit within 21 days after move-out unless deductions are itemized.
+[REC38-4c6c25] If the tenant keeps a pet, a $300 refundable pet deposit is due before move-in.
+[REC38-50178e] The building was renovated in 2019.
+[REC38-d9f54b] The landlord must provide 48 hours notice before non-emergency entry.
+[REC38-b996e2] The lease requires the tenant to replace lost mailbox keys within five business days of notice.
+[REC38-d35bb5] The inspection says the garage sensor fails reverse testing and the seller must repair it before appraisal.
+[REC38-a5b1d1] Unit 9C requires a staff escort for evening showings after 7 PM.
+[REC38-f9e203] The landlord must repair the lobby heat within 48 hours when indoor temperature falls below code.
+[REC38-2bb762] The tenant must pay a $250 key replacement fee if building fobs are not returned within 48 hours of move-out.
+[REC38-b44928] The landlord must repaint the hallway within 10 days after a water leak stains more than two panels.
+[REC38-b68e72] The property file mixes marketing description, tenant notes, inspection comments, and showing logistics.
+[REC38-6f0dbe] Some sentences describe amenities or neighborhood features without creating an obligation.
+[REC38-20d110] Other notes are requests that have not been approved.
+[REC38-6286f8] The enforceable repair duties, lease obligations, and access constraints appear among those ordinary property-management details.
+[REC38-ff58a9] The file also includes neighborhood description, tenant preferences, and agent comments about photography or staging.
+[REC38-24e9cf] Some requested changes are still under discussion, while other notes simply describe the property.
+[REC38-aa1602] The binding constraints and repairs sit among that ordinary management prose.
+[REC38-0c5f63] The file closes with staging notes, neighborhood description, and questions from agents that have not been approved.
+[REC38-44e37f] Several comments are descriptive rather than binding.
+[REC38-dd694d] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

@@ -1,0 +1,20 @@
+[REC37-55290e] The chef note says the pesto gnocchi contains pine nuts from the garnish, but the printed menu only lists dairy, so a nut warning must be added.
+[REC37-dc0d76] The sesame noodles already show the sesame icon.
+[REC37-1a57ce] The chocolate tart uses almond flour in the crust and needs a tree-nut label before tonight's service.
+[REC37-1a0599] Tomato soup is vegan as labeled.
+[REC37-77d7a8] The fryer oil is shared with shrimp tempura, so fries need a shellfish cross-contact warning.
+[REC37-3d3846] The sesame noodles need a sesame warning because the finishing oil is used after plating, and the menu card has not been updated.
+[REC37-e1bd1f] The tomato soup carries a dairy risk from shared cream pitchers, so staff must add a counter sign before dinner service.
+[REC37-299ba9] The almond cake may expose guests to peanuts because the garnish bins were swapped during prep, requiring a verbal warning.
+[REC37-b7a9cd] The vegan rice bowl has a shellfish exposure risk from the wok used for shrimp, and the line needs a temporary label.
+[REC37-6cbcf6] The breakfast potatoes should mention gluten because malt vinegar was added to the seasoning mix.
+[REC37-79675d] The herb omelet needs a soy notice after the kitchen used soy-based spray on the small pans.
+[REC37-dd0b2e] The restaurant log includes training notes, ingredient deliveries, and service chatter from the managers.
+[REC37-ba18bf] Some shift requests are still pending, and some menu items already have the correct labels.
+[REC37-9dfd7c] The notes also mention guest preferences and prep timing that do not change staffing or allergen handling.
+[REC37-87ca61] The relevant items are mixed into the everyday rhythm of service planning.
+[REC37-d9d1b0] The log finishes with prep counts, supplier deliveries, and reminders about stations that were cleaned before service.
+[REC37-e0ed53] Several employees are named in ordinary scheduling chatter without a confirmed change.
+[REC37-946595] Allergen and staffing issues are therefore mixed into a realistic restaurant operations note.
+[REC37-7bc9df] The closing notes mention prep counts, cleaning status, and supplier deliveries.
+[REC37-1f3647] Several staff names appear only in ordinary service chatter.

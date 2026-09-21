@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_32_grade",
+        "ca_19_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "data_30_clinical_safety_followups",
+        "data_37_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_40_campus_ticket_risks",
+        "data_02_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_06_earnings_margin_risks",
+        "text_25_api_breaking_changes"
+      ]
+    },
+    {
+      "tasks": [
+        "data_45_campus_ticket_risks",
+        "data_13_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_04_slugify",
+        "ca_42_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "text_32_script_relationships",
+        "text_05_slack_blockers"
+      ]
+    },
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_17_audit_remediation"
+      ]
+    },
+    {
+      "tasks": [
+        "text_22_manuscript_revisions",
+        "text_50_podcast_sponsor_terms"
+      ]
+    },
+    {
+      "tasks": [
+        "data_36_clinical_safety_followups",
+        "data_07_support_case_escalations"
+      ]
+    }
+  ]
+}

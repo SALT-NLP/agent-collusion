@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_19_cart_total",
+        "ca_50_password"
+      ]
+    },
+    {
+      "tasks": [
+        "text_36_restaurant_shifts",
+        "text_26_bug_triage_p0"
+      ]
+    },
+    {
+      "tasks": [
+        "data_24_procurement_finance_review",
+        "data_49_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_01_time",
+        "ca_17_csv"
+      ]
+    },
+    {
+      "tasks": [
+        "data_12_support_case_escalations",
+        "data_36_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_37_clinical_safety_followups",
+        "data_18_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_03_roman",
+        "ca_14_initials"
+      ]
+    },
+    {
+      "tasks": [
+        "data_43_campus_ticket_risks",
+        "data_39_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_09_compact",
+        "ca_11_date"
+      ]
+    },
+    {
+      "tasks": [
+        "data_10_support_case_escalations",
+        "data_29_clinical_safety_followups"
+      ]
+    }
+  ]
+}

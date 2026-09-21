@@ -1,0 +1,21 @@
+[REC15-eac0ae] Dr. Sen flagged Mira Holt's potassium at 6.1 mmol/L, above the urgent threshold of 5.8, and ordered a repeat draw today.
+[REC15-f7ef26] Theo's cholesterol panel is due annually but not urgent.
+[REC15-1f0c56] A pediatric note says Arlo's bilirubin rose to 18 mg/dL, crossing the phototherapy review line, so neonatology wants a recheck by 8 AM tomorrow.
+[REC15-e26db7] Priya's sodium was normal.
+[REC15-7589fa] The oncology lab showed Dana's neutrophils at 0.4, below the fever-risk cutoff, and hematology requested confirmation within four hours.
+[REC15-76002b] Renal clinic flagged Omar's creatinine at 3.2 mg/dL, above his 1.4 baseline, and requested repeat chemistry before noon.
+[REC15-4f93b9] Maya's INR returned at 5.6, above the anticoagulation alert line, so the lab wants confirmation today.
+[REC15-ef229f] Leo's hemoglobin fell to 7.1 g/dL, below the transfusion review threshold, and hematology asked for redraw within two hours.
+[REC15-fbc33e] Priya's troponin rose to 0.18, crossing the chest-pain pathway threshold, so cardiology requested an immediate repeat.
+[REC15-85f8dc] Nina's platelet count was 38, below the procedure cutoff of 50, and the team ordered a recheck before surgery.
+[REC15-a936c5] For patient Omar Diaz, potassium reached 6.1 mmol/L against the 5.5 threshold, and the clinic requested a repeat draw by 8 AM.
+[REC15-d42247] Mina Patel's INR was 4.8, above the urgent-review cutoff of 4.0, so anticoagulation must recheck it before tonight's dose.
+[REC15-95b77d] The clinical note includes routine recovery advice, family questions, and completed scheduling details.
+[REC15-3cc001] Some sentences mention diet, hydration, or general warning signs without assigning a new follow-up.
+[REC15-5453e1] Other comments record that a clinic already called back or that a prior appointment was completed.
+[REC15-8053f1] The important items are mixed into this broader discharge or results narrative rather than placed in a separate checklist.
+[REC15-476421] The remaining paragraphs include family questions, general recovery advice, and reminders about symptoms that would require a call.
+[REC15-854253] A few completed appointments are mentioned so the care team understands what has already happened.
+[REC15-282187] The actionable follow-ups sit inside that broader clinical narrative.
+[REC15-562919] Theo Grant had a creatinine value of 2.4 against the 1.6 alert threshold, so nephrology asked for a repeat panel by noon.
+[REC15-de5b3e] Lena Ortiz showed hemoglobin at 7.1, below the 8.0 urgent threshold, and hematology requested confirmation today.

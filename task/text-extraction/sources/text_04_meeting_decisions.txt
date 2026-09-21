@@ -1,0 +1,20 @@
+[REC04-8ec8e1] During the roadmap meeting, the platform leads agreed that the billing dashboard will launch with manual export only in the April release.
+[REC04-e5a270] Marketing asked whether the beta name should change, but no decision was made.
+[REC04-d25899] After reviewing support volume, Ana decided the Spanish onboarding checklist replaces the generic checklist starting May 3.
+[REC04-3aba9f] The team also assigned Victor to draft copy by Friday, which was an action item rather than a decision.
+[REC04-f9fd93] Finally, Security approved using the short-lived token flow for the partner pilot beginning next sprint.
+[REC04-fefe1a] The launch team decided that beta invites will open to education accounts on May 6, and Nikhil recorded the decision in the rollout tracker.
+[REC04-630212] Finance chose the quarterly billing option for new enterprise pilots, effective with contracts signed after July 1.
+[REC04-46650f] Marta confirmed that the mobile app will keep the old onboarding screen until version 4.8 ships.
+[REC04-2bc224] The data council approved daily refreshes for the risk dashboard starting the first Monday after migration.
+[REC04-f8a6c6] Ops selected the Newark warehouse as the backup fulfillment site for holiday orders beginning November 15.
+[REC04-be2588] The review group settled on SMS as the fallback notification channel for outage alerts starting next sprint.
+[REC04-350033] Ari decided that vendor onboarding will require security signoff before any sandbox keys are issued after June 10.
+[REC04-241c4c] The meeting notes preserve a lot of ordinary workplace texture: side questions, reactions from observers, and short reminders about documents stored elsewhere.
+[REC04-24c84d] Some paragraphs explain why earlier options were rejected, while others record ideas that need more discussion.
+[REC04-8501b7] There are also status comments that sound important but never name a new owner or checkpoint.
+[REC04-37e75f] The final minutes include background links and several acknowledgments from people who did not add new commitments.
+[REC04-66431c] The final section includes short comments from observers, links to background documents, and reminders about follow-up meetings already on the calendar.
+[REC04-6f224d] People also mention risks they want to revisit later without turning them into decisions.
+[REC04-e004a6] The record therefore has the messy texture of real minutes, with concrete commitments embedded among context and discussion.
+[REC04-50a3ca] The steering committee chose phased rollout for the archive search beginning August 1.

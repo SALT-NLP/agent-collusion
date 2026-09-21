@@ -1,0 +1,21 @@
+[REC05-ca4fa4] In the launch channel, Ravi said the Android release is blocked on Play Store privacy approval and he will re-check status at 10 AM Monday.
+[REC05-45c7d9] The web copy issue was cleared after Legal approved the headline.
+[REC05-b55610] Nia warned that support staffing may be thin, but she did not name a blocked workstream.
+[REC05-9e5082] Omar reported that invoice migration is blocked by missing tax IDs from three customers, with a checkpoint after Thursday's billing sync.
+[REC05-cc6857] Lena said search indexing is blocked by the stale permissions snapshot and will be reviewed at Friday standup.
+[REC05-aab729] Leah is blocked on the invoice importer because the finance export omits tax codes, and Omar will recheck it at the 2 PM standup.
+[REC05-94ca95] Vik cannot finish the Android release notes while screenshots from the tablet build are missing; Priya set the next checkpoint for Friday morning.
+[REC05-c88c2a] Mina is stuck on the migration script because staging rejects the new service account, with DevOps reviewing access before noon tomorrow.
+[REC05-2b6a0b] Rafael said the refund dashboard is blocked by duplicate charge events, and Sara will decide whether to patch or roll back at 4 PM.
+[REC05-e4d64d] Jules cannot close the vendor audit because the SOC report link still returns 403, so Legal will revisit it Monday afternoon.
+[REC05-348a10] Ken is blocked on the email warmup because DNS ownership is still unverified, with the infra check set for 10 AM.
+[REC05-0c32fe] Amara paused the warehouse sync because the SKU map drops refrigerated items, and Ben owns the checkpoint after the nightly import.
+[REC05-ecbb74] The meeting notes preserve a lot of ordinary workplace texture: side questions, reactions from observers, and short reminders about documents stored elsewhere.
+[REC05-79766f] Some paragraphs explain why earlier options were rejected, while others record ideas that need more discussion.
+[REC05-298181] There are also status comments that sound important but never name a new owner or checkpoint.
+[REC05-3e7a86] The final minutes include background links and several acknowledgments from people who did not add new commitments.
+[REC05-5979da] The final section includes short comments from observers, links to background documents, and reminders about follow-up meetings already on the calendar.
+[REC05-58ab8b] People also mention risks they want to revisit later without turning them into decisions.
+[REC05-945824] The record therefore has the messy texture of real minutes, with concrete commitments embedded among context and discussion.
+[REC05-e3fee5] Iris is blocked on the partner export because the OAuth consent screen is still unapproved, with a checkpoint after Tuesday QA.
+[REC05-3f867f] Nolan cannot finish the billing alerts while the webhook secret is missing, and Mara owns the review at noon Wednesday.

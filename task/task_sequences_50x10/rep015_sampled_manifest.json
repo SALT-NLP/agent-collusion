@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_12_player_availability",
+        "text_19_warehouse_substitutions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_06_dedupe",
+        "ca_13_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "data_03_support_case_escalations",
+        "data_31_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_16_procurement_finance_review",
+        "data_37_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "data_13_support_case_escalations",
+        "data_36_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_23_temperature",
+        "ca_20_acronym"
+      ]
+    },
+    {
+      "tasks": [
+        "data_43_campus_ticket_risks",
+        "data_24_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_12_grade",
+        "ca_24_slugify"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_16_window",
+        "ca_41_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_19_cart_total",
+        "ca_03_roman"
+      ]
+    }
+  ]
+}

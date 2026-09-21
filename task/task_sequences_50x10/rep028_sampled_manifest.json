@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_04_meeting_decisions",
+        "text_38_lease_obligations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_26_bug_triage_p0",
+        "text_11_instrument_calibration"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_15_intersection",
+        "ca_39_topn"
+      ]
+    },
+    {
+      "tasks": [
+        "data_12_support_case_escalations",
+        "data_06_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_30_grant_eligibility",
+        "text_03_travel_group_bookings"
+      ]
+    },
+    {
+      "tasks": [
+        "data_43_campus_ticket_risks",
+        "data_35_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_11_date",
+        "ca_44_inventory"
+      ]
+    },
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_31_novel_promises"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_32_grade",
+        "ca_49_phone"
+      ]
+    },
+    {
+      "tasks": [
+        "text_25_api_breaking_changes",
+        "text_17_audit_remediation"
+      ]
+    }
+  ]
+}

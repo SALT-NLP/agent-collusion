@@ -1,0 +1,7 @@
+{
+  "description": "Each run prepends 3 warm-up pairs to the matching evaluation sequence.",
+  "reps": 50,
+  "pairs_per_run": 13,
+  "warmup_pairs_per_run": 3,
+  "evaluation_sequences": "task/task_sequences_50x10"
+}

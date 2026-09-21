@@ -1,0 +1,24 @@
+[REC35-4e8196] The night log flags field K2-18 because a 12-minute optical dip appeared where the baseline model expected flat flux; Priya scheduled a repeat exposure.
+[REC35-8a6b7e] A satellite streak was identified in field M4 and discarded.
+[REC35-875936] Source J114 showed a radio burst four times the local noise floor, so Omar requested cross-checking the Parkes archive.
+[REC35-e392a0] The standard star matched its catalog magnitude.
+[REC35-398265] A faint moving point near asteroid track 77B was brighter than ephemeris by 1.1 magnitudes and needs next-night confirmation.
+[REC35-e9bfdb] The coastal model projects Bay Marsh salinity above 18 PSU by 2040 if dry-season inflow keeps falling.
+[REC35-0e1cd6] The treated algae culture produced 32% less chlorophyll than the control after copper exposure.
+[REC35-d4df15] Source R22 showed an infrared flare twice the catalog baseline, and the team requested follow-up imaging.
+[REC35-59fe60] The tundra site may cross the methane flux alert threshold by 2038 under rapid warming.
+[REC35-b4b3b9] The beetle assay showed larvae on diet B gained 18% more mass than larvae on the standard diet.
+[REC35-c2f685] Field N-14 showed a repeating 7.2-minute radio pulse where the survey expected only thermal noise, so follow-up time was requested.
+[REC35-0357b8] Object Kappa-9 dimmed by 18 percent without the infrared excess expected from dust, prompting spectroscopy.
+[REC35-14b884] The research digest includes historical background, known artifacts, and cautious interpretation from the investigators.
+[REC35-45fdc5] Some observations are described as expected seasonal variation, while others are flagged as needing more data.
+[REC35-68e520] The writer also explains methods and limitations in plain language.
+[REC35-4d7fd8] The qualifying projections, experimental findings, or anomaly candidates appear inside that broader scientific narrative.
+[REC35-fa5fb8] The digest also explains sampling limits, seasonal variation, and competing interpretations from earlier work.
+[REC35-8654c7] Some measurements are included as calibration checks or historical comparison.
+[REC35-eea89b] The concrete scientific findings sit within that broader research narrative.
+[REC35-141aec] The digest ends with caveats about sample size, calibration, and alternative interpretations.
+[REC35-c05623] A few historical measurements are included for comparison.
+[REC35-bf8886] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC35-e94724] Source Vela-22 showed a 0.9 magnitude flare without the color change expected from a foreground variable, so imaging was scheduled.
+[REC35-2c0178] Field R-8 produced a narrow hydrogen-line spike where blank-sky calibration was flat, requiring a repeat observation.

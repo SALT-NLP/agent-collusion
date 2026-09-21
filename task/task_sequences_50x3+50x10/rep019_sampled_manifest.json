@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_40_privacy_sharing_limits",
+        "text_25_api_breaking_changes"
+      ]
+    },
+    {
+      "tasks": [
+        "data_35_clinical_safety_followups",
+        "data_21_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_50_password",
+        "ca_28_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "text_27_return_eligibility",
+        "text_28_promotion_exclusions"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_37_buckets",
+        "ca_16_window"
+      ]
+    },
+    {
+      "tasks": [
+        "data_18_procurement_finance_review",
+        "data_25_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_48_game_patch_notes",
+        "text_35_astronomy_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_36_date",
+        "ca_13_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "data_38_clinical_safety_followups",
+        "data_48_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "data_45_campus_ticket_risks",
+        "data_04_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_21_flight_compensation",
+        "text_03_travel_group_bookings"
+      ]
+    },
+    {
+      "tasks": [
+        "text_29_civic_votes",
+        "text_16_contract_termination"
+      ]
+    },
+    {
+      "tasks": [
+        "data_46_campus_ticket_risks",
+        "data_30_clinical_safety_followups"
+      ]
+    }
+  ]
+}

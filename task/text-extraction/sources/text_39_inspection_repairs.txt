@@ -1,0 +1,23 @@
+[REC39-8f722d] The inspection report says the kitchen GFCI outlet fails reset testing, and the seller must repair it before closing.
+[REC39-b5d973] Bedroom paint scuffs are cosmetic.
+[REC39-86f97e] The roof flashing above the west dormer is loose; the owner must correct it within 10 days because water intrusion is active.
+[REC39-59f86f] The furnace filter was replaced yesterday.
+[REC39-71d9b8] The basement handrail is missing on the lower stairs and must be installed before tenant occupancy.
+[REC39-1c32c2] The lease requires the tenant to replace lost mailbox keys within five business days of notice.
+[REC39-d9d4ad] The inspection says the garage sensor fails reverse testing and the seller must repair it before appraisal.
+[REC39-fe97b0] Unit 9C requires a staff escort for evening showings after 7 PM.
+[REC39-3adfa4] The landlord must repair the lobby heat within 48 hours when indoor temperature falls below code.
+[REC39-3dd84d] The Oak Lane showing for the Rivera family requires advance notice because a dog must be removed.
+[REC39-af8b16] Unit 4B has a loose balcony rail, and the owner must repair it before any new showing.
+[REC39-817601] The basement laundry room has exposed wiring near the dryer, requiring the property manager to fix it within 24 hours.
+[REC39-83166c] The property file mixes marketing description, tenant notes, inspection comments, and showing logistics.
+[REC39-abb1f3] Some sentences describe amenities or neighborhood features without creating an obligation.
+[REC39-80e5d3] Other notes are requests that have not been approved.
+[REC39-1c0399] The enforceable repair duties, lease obligations, and access constraints appear among those ordinary property-management details.
+[REC39-0d45e8] The file also includes neighborhood description, tenant preferences, and agent comments about photography or staging.
+[REC39-0f7b7d] Some requested changes are still under discussion, while other notes simply describe the property.
+[REC39-c22f4d] The binding constraints and repairs sit among that ordinary management prose.
+[REC39-ce6baa] The file closes with staging notes, neighborhood description, and questions from agents that have not been approved.
+[REC39-ada5d7] Several comments are descriptive rather than binding.
+[REC39-56980b] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC39-bce65d] The west stairwell has a cracked emergency light cover, and maintenance must replace it before the fire inspection.

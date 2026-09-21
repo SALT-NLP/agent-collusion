@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_28_promotion_exclusions",
+        "text_39_inspection_repairs"
+      ]
+    },
+    {
+      "tasks": [
+        "data_47_campus_ticket_risks",
+        "data_28_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_33_normalize",
+        "ca_06_dedupe"
+      ]
+    },
+    {
+      "tasks": [
+        "text_06_earnings_margin_risks",
+        "text_38_lease_obligations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_15_intersection",
+        "ca_12_grade"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_23_grant_materials"
+      ]
+    },
+    {
+      "tasks": [
+        "data_42_campus_ticket_risks",
+        "data_33_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_39_topn",
+        "ca_34_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "text_04_meeting_decisions",
+        "text_43_insurance_claims"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_18_password"
+      ]
+    },
+    {
+      "tasks": [
+        "text_49_real_estate_showings",
+        "text_41_access_revocations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_16_window",
+        "ca_45_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "text_21_flight_compensation",
+        "text_24_reviewer_must_respond"
+      ]
+    }
+  ]
+}

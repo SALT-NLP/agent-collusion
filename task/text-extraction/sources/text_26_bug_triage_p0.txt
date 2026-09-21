@@ -1,0 +1,20 @@
+[REC26-389767] The triage notes mark checkout tax calculation as P0 because Canadian customers are overcharged; Maya owns rollback validation.
+[REC26-c1a194] A tooltip typo is P3.
+[REC26-1412e9] SSO login loop is P1 for managed-domain accounts, and Ravi will bisect the identity callback.
+[REC26-13de19] The export crash was fixed yesterday.
+[REC26-0b0f70] Invoice PDF generation is P1 because enterprise admins cannot download month-end statements; Lena owns reproducing with production-like data.
+[REC26-27e5c4] The migration notes say the reports endpoint will reject the old pageToken field after version 4.2 and requires cursor instead.
+[REC26-88cd4b] The mobile API removes the legacy device_id parameter in October and requires deviceId.
+[REC26-e4fb16] The webhook retry policy changes from unlimited retries to five attempts in the November release.
+[REC26-f4a0df] The search API stops returning the summary field by default when v3 becomes stable.
+[REC26-fac6e5] The export route changes CSV timestamps from local time to UTC after July 15.
+[REC26-3114d7] The engineering notes include routine release commentary, feature-flag reminders, and low-priority bugs that can wait for the normal sprint.
+[REC26-1693f2] Some entries describe internal cleanup work or documentation edits with no user-facing breakage.
+[REC26-636f5f] Other comments are deprecation warnings that are advisory rather than breaking.
+[REC26-8fc492] The serious changes and incidents are mixed into this broader release discussion.
+[REC26-633d9f] The document also includes release housekeeping, known issues already accepted by support, and small improvements planned for a later sprint.
+[REC26-d337f6] Engineers discuss possible causes and monitoring charts before naming the truly urgent items.
+[REC26-b49ec5] The result feels like a real triage or migration note rather than a compact answer key.
+[REC26-721666] The close of the note mentions dashboards, internal cleanup, and lower-priority bugs assigned to the backlog.
+[REC26-334a8c] Several features are discussed without any immediate action.
+[REC26-6ae79c] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

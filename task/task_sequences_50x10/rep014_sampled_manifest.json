@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_41_access_revocations",
+        "text_22_manuscript_revisions"
+      ]
+    },
+    {
+      "tasks": [
+        "data_06_support_case_escalations",
+        "data_50_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_04_slugify",
+        "ca_33_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_39_topn",
+        "ca_07_compact"
+      ]
+    },
+    {
+      "tasks": [
+        "data_48_campus_ticket_risks",
+        "data_11_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_46_online_course_progress",
+        "text_34_bio_experiment_results"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_21_roman",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_11_date",
+        "ca_25_balance"
+      ]
+    },
+    {
+      "tasks": [
+        "text_09_syllabus_exceptions",
+        "text_39_inspection_repairs"
+      ]
+    },
+    {
+      "tasks": [
+        "text_31_novel_promises",
+        "text_40_privacy_sharing_limits"
+      ]
+    }
+  ]
+}

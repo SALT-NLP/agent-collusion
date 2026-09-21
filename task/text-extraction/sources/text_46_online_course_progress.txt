@@ -1,0 +1,19 @@
+[REC46-e012ba] The LMS note says Dana is at risk in statistics because she missed two proctored quizzes; the advisor must schedule a makeup plan.
+[REC46-00d4d3] Leo is on track after submitting the lab.
+[REC46-ceab3e] Arlo has not posted in the discussion board for three weeks, so the instructor should send an engagement warning.
+[REC46-48ca67] Priya watched all lectures but asked an optional question.
+[REC46-fc9e13] Mei failed the plagiarism tutorial twice and needs an academic integrity meeting before the next essay.
+[REC46-798f3e] Avery is at risk in the Python course because quiz average fell below 60 percent, so the mentor must schedule a practice session.
+[REC46-327f92] Mina missed two peer reviews in Data Ethics and needs an instructor check-in before Friday.
+[REC46-5acb3f] Owen watched less than half of the Week 4 videos in Statistics, triggering an advisor email.
+[REC46-a0a01d] Leah failed the second SQL lab in Database Basics and must be offered a remediation worksheet.
+[REC46-a87a86] Sam has not posted in the writing forum for ten days, so the composition coach should intervene today.
+[REC46-612a71] The course dashboard includes encouraging notes for students who are on track, general reminders about office hours, and comments from mentors.
+[REC46-c141fa] Some activity looks low but has already been resolved by a later submission.
+[REC46-28881f] The at-risk records appear among this normal course-management context.
+[REC46-27340f] The dashboard also includes mentor notes, praise for recent improvement, and general reminders about upcoming modules.
+[REC46-617aee] Some students appear because they recovered after a late submission.
+[REC46-b1e51c] The at-risk cases are placed among normal course monitoring details.
+[REC46-8d9165] The dashboard also includes mentor praise, office-hour reminders, and students who recovered after late submissions.
+[REC46-cdd18c] Some activity notes are informational only.
+[REC46-d2299f] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

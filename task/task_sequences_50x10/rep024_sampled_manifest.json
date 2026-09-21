@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_46_online_course_progress",
+        "text_27_return_eligibility"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_07_compact",
+        "ca_48_pagination"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_17_audit_remediation"
+      ]
+    },
+    {
+      "tasks": [
+        "data_06_support_case_escalations",
+        "data_48_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_38_lease_obligations",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "data_47_campus_ticket_risks",
+        "data_19_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_12_player_availability",
+        "text_36_restaurant_shifts"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_33_normalize",
+        "ca_49_phone"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_24_slugify",
+        "ca_46_window"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_30_email_mask",
+        "ca_10_dedupe"
+      ]
+    }
+  ]
+}

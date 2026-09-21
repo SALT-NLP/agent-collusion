@@ -1,0 +1,2622 @@
+[
+  {
+    "task_id": "text_01_roommate_expenses",
+    "task_type": "record_extraction",
+    "task_family": "daily_communication",
+    "source_path": "task/text-extraction/sources/text_01_roommate_expenses.txt",
+    "extraction_instruction": "Extract expense commitments that include payer, amount, purpose, and due date. Exclude vague reminders, already-paid items, and plans without an amount.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC01-4fe34e"
+      },
+      {
+        "id": "REC01-879367"
+      },
+      {
+        "id": "REC01-03194d"
+      },
+      {
+        "id": "REC01-774dd4"
+      },
+      {
+        "id": "REC01-81c6b5"
+      },
+      {
+        "id": "REC01-be33fc"
+      },
+      {
+        "id": "REC01-baa617"
+      },
+      {
+        "id": "REC01-ff9839"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC01-fa3c14",
+      "REC01-0389a4",
+      "REC01-c52b1b",
+      "REC01-716e2d",
+      "REC01-25e6d4",
+      "REC01-740afc",
+      "REC01-b62659",
+      "REC01-96b447"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_02_family_medical_pickups",
+    "task_type": "record_extraction",
+    "task_family": "daily_communication",
+    "source_path": "task/text-extraction/sources/text_02_family_medical_pickups.txt",
+    "extraction_instruction": "Extract family care tasks that include a responsible person, recipient, concrete care action, and time. Exclude suggestions, completed actions, and tasks missing a time.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC02-85a71c"
+      },
+      {
+        "id": "REC02-c7918a"
+      },
+      {
+        "id": "REC02-9ad6b9"
+      },
+      {
+        "id": "REC02-f0abe0"
+      },
+      {
+        "id": "REC02-20f96b"
+      },
+      {
+        "id": "REC02-47fc25"
+      },
+      {
+        "id": "REC02-964d7f"
+      },
+      {
+        "id": "REC02-f22365"
+      },
+      {
+        "id": "REC02-d6eaad"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC02-567bcf",
+      "REC02-75abaf",
+      "REC02-feb295",
+      "REC02-51c87a",
+      "REC02-b33966",
+      "REC02-210abf",
+      "REC02-dbae66",
+      "REC02-94058d"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_03_travel_group_bookings",
+    "task_type": "record_extraction",
+    "task_family": "travel",
+    "source_path": "task/text-extraction/sources/text_03_travel_group_bookings.txt",
+    "extraction_instruction": "Extract travel commitments that include traveler, booking/payment action, item, and deadline. Exclude preferences, tentative ideas, and actions already completed.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC03-0e9f18"
+      },
+      {
+        "id": "REC03-c5df1b"
+      },
+      {
+        "id": "REC03-dc97c0"
+      },
+      {
+        "id": "REC03-f640cd"
+      },
+      {
+        "id": "REC03-d0faeb"
+      },
+      {
+        "id": "REC03-80fe06"
+      },
+      {
+        "id": "REC03-114393"
+      },
+      {
+        "id": "REC03-129b94"
+      },
+      {
+        "id": "REC03-0a698d"
+      },
+      {
+        "id": "REC03-279de7"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC03-2c8f9a",
+      "REC03-89170f",
+      "REC03-952687",
+      "REC03-3748ad",
+      "REC03-e667a4",
+      "REC03-e4b5ef",
+      "REC03-1dee5a",
+      "REC03-41c993",
+      "REC03-bb4b9a",
+      "REC03-676c9c"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_04_meeting_decisions",
+    "task_type": "record_extraction",
+    "task_family": "workplace_meetings",
+    "source_path": "task/text-extraction/sources/text_04_meeting_decisions.txt",
+    "extraction_instruction": "Extract decisions that include the chosen option, decision maker/group, and effective date or release. Exclude open questions and action items without a final decision.",
+    "reference_item_count": 11,
+    "reference_items": [
+      {
+        "id": "REC04-8ec8e1"
+      },
+      {
+        "id": "REC04-d25899"
+      },
+      {
+        "id": "REC04-f9fd93"
+      },
+      {
+        "id": "REC04-fefe1a"
+      },
+      {
+        "id": "REC04-630212"
+      },
+      {
+        "id": "REC04-46650f"
+      },
+      {
+        "id": "REC04-2bc224"
+      },
+      {
+        "id": "REC04-f8a6c6"
+      },
+      {
+        "id": "REC04-be2588"
+      },
+      {
+        "id": "REC04-350033"
+      },
+      {
+        "id": "REC04-50a3ca"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC04-e5a270",
+      "REC04-3aba9f",
+      "REC04-241c4c",
+      "REC04-24c84d",
+      "REC04-8501b7",
+      "REC04-37e75f",
+      "REC04-66431c",
+      "REC04-6f224d",
+      "REC04-e004a6"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_05_slack_blockers",
+    "task_type": "record_extraction",
+    "task_family": "workplace_meetings",
+    "source_path": "task/text-extraction/sources/text_05_slack_blockers.txt",
+    "extraction_instruction": "Extract unresolved blockers that include owner, blocked work, blocker, and next checkpoint. Exclude resolved blockers, FYI risks, and tasks without a checkpoint.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC05-ca4fa4"
+      },
+      {
+        "id": "REC05-9e5082"
+      },
+      {
+        "id": "REC05-cc6857"
+      },
+      {
+        "id": "REC05-aab729"
+      },
+      {
+        "id": "REC05-94ca95"
+      },
+      {
+        "id": "REC05-c88c2a"
+      },
+      {
+        "id": "REC05-2b6a0b"
+      },
+      {
+        "id": "REC05-e4d64d"
+      },
+      {
+        "id": "REC05-348a10"
+      },
+      {
+        "id": "REC05-0c32fe"
+      },
+      {
+        "id": "REC05-e3fee5"
+      },
+      {
+        "id": "REC05-3f867f"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC05-45c7d9",
+      "REC05-b55610",
+      "REC05-ecbb74",
+      "REC05-79766f",
+      "REC05-298181",
+      "REC05-3e7a86",
+      "REC05-5979da",
+      "REC05-58ab8b",
+      "REC05-945824"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_06_earnings_margin_risks",
+    "task_type": "record_extraction",
+    "task_family": "finance",
+    "source_path": "task/text-extraction/sources/text_06_earnings_margin_risks.txt",
+    "extraction_instruction": "Extract forward-looking margin risks that include business line, metric, risk direction, condition, and time window. Exclude historical results and demand-neutral comments without a metric.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC06-2b57a0"
+      },
+      {
+        "id": "REC06-7a0b09"
+      },
+      {
+        "id": "REC06-d3e105"
+      },
+      {
+        "id": "REC06-de9dc5"
+      },
+      {
+        "id": "REC06-162106"
+      },
+      {
+        "id": "REC06-b15890"
+      },
+      {
+        "id": "REC06-0283a5"
+      },
+      {
+        "id": "REC06-34caf6"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC06-1522dc",
+      "REC06-7ba8d9",
+      "REC06-a9d496",
+      "REC06-5ba3da",
+      "REC06-e4e6ae",
+      "REC06-1c6ab2",
+      "REC06-31db21",
+      "REC06-b45c4a",
+      "REC06-8fea98"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_07_bank_anomalies",
+    "task_type": "record_extraction",
+    "task_family": "finance",
+    "source_path": "task/text-extraction/sources/text_07_bank_anomalies.txt",
+    "extraction_instruction": "Extract suspicious bank transactions that include account, amount, merchant/counterparty, and reason. Exclude expected bills, reversed charges, and notes without an amount.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC07-fbd986"
+      },
+      {
+        "id": "REC07-45b73d"
+      },
+      {
+        "id": "REC07-775c9a"
+      },
+      {
+        "id": "REC07-75c3a1"
+      },
+      {
+        "id": "REC07-2540c1"
+      },
+      {
+        "id": "REC07-474eaf"
+      },
+      {
+        "id": "REC07-ecf99e"
+      },
+      {
+        "id": "REC07-c8c6a1"
+      },
+      {
+        "id": "REC07-771335"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC07-d44ce8",
+      "REC07-4e8ed4",
+      "REC07-74761b",
+      "REC07-2b4813",
+      "REC07-a5d9e6",
+      "REC07-828efe",
+      "REC07-dd3458",
+      "REC07-e08999",
+      "REC07-52234d"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_08_algebra_constraints",
+    "task_type": "record_extraction",
+    "task_family": "math_education",
+    "source_path": "task/text-extraction/sources/text_08_algebra_constraints.txt",
+    "extraction_instruction": "Extract math problem constraints that include variable, relation, value/expression, and context. Exclude narrative facts that do not constrain a variable.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC08-1ffc4a"
+      },
+      {
+        "id": "REC08-cb5eb2"
+      },
+      {
+        "id": "REC08-0b31df"
+      },
+      {
+        "id": "REC08-b2c7b3"
+      },
+      {
+        "id": "REC08-def6ed"
+      },
+      {
+        "id": "REC08-10010d"
+      },
+      {
+        "id": "REC08-985485"
+      },
+      {
+        "id": "REC08-701ccc"
+      },
+      {
+        "id": "REC08-83b0e7"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC08-13d3f9",
+      "REC08-302bc0",
+      "REC08-3f141b",
+      "REC08-378234",
+      "REC08-5fb32c",
+      "REC08-165af0",
+      "REC08-647c57",
+      "REC08-0fc4a8",
+      "REC08-74674a",
+      "REC08-1d163b",
+      "REC08-901263"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_09_syllabus_exceptions",
+    "task_type": "record_extraction",
+    "task_family": "math_education",
+    "source_path": "task/text-extraction/sources/text_09_syllabus_exceptions.txt",
+    "extraction_instruction": "Extract grading policy exceptions that include assessment, exception condition, and grading consequence. Exclude default grading rules and office-hour reminders.",
+    "reference_item_count": 11,
+    "reference_items": [
+      {
+        "id": "REC09-e66c5a"
+      },
+      {
+        "id": "REC09-c954f2"
+      },
+      {
+        "id": "REC09-bca0e8"
+      },
+      {
+        "id": "REC09-c796c8"
+      },
+      {
+        "id": "REC09-e7afd7"
+      },
+      {
+        "id": "REC09-1da8ed"
+      },
+      {
+        "id": "REC09-c658c4"
+      },
+      {
+        "id": "REC09-c8831e"
+      },
+      {
+        "id": "REC09-21ecde"
+      },
+      {
+        "id": "REC09-afc1d0"
+      },
+      {
+        "id": "REC09-25d9d9"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC09-2422b9",
+      "REC09-a825c8",
+      "REC09-b18937",
+      "REC09-7bcb00",
+      "REC09-043f6d",
+      "REC09-656832",
+      "REC09-c520d9",
+      "REC09-3c208c",
+      "REC09-33ff39",
+      "REC09-2dc46e"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_10_lab_anomalies",
+    "task_type": "record_extraction",
+    "task_family": "physics_lab",
+    "source_path": "task/text-extraction/sources/text_10_lab_anomalies.txt",
+    "extraction_instruction": "Extract anomalous physics lab observations that include instrument/system, measured value, expected range/baseline, and suspected cause. Exclude normal readings and maintenance notes.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC10-f6d93a"
+      },
+      {
+        "id": "REC10-497603"
+      },
+      {
+        "id": "REC10-b85cf6"
+      },
+      {
+        "id": "REC10-a73453"
+      },
+      {
+        "id": "REC10-074f47"
+      },
+      {
+        "id": "REC10-12890a"
+      },
+      {
+        "id": "REC10-dfa168"
+      },
+      {
+        "id": "REC10-2f6b7e"
+      },
+      {
+        "id": "REC10-e2abf5"
+      },
+      {
+        "id": "REC10-638f76"
+      },
+      {
+        "id": "REC10-be1e37"
+      },
+      {
+        "id": "REC10-3defa1"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC10-e2fe95",
+      "REC10-2dd64e",
+      "REC10-037dfd",
+      "REC10-d61b28",
+      "REC10-f148ef",
+      "REC10-395da8",
+      "REC10-60b1d5",
+      "REC10-a82c65",
+      "REC10-1bbca2"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_11_instrument_calibration",
+    "task_type": "record_extraction",
+    "task_family": "physics_lab",
+    "source_path": "task/text-extraction/sources/text_11_instrument_calibration.txt",
+    "extraction_instruction": "Extract failed calibration checks that include instrument, failed criterion, observed result, and required follow-up. Exclude passing checks and inventory notes.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC11-e14d58"
+      },
+      {
+        "id": "REC11-563f63"
+      },
+      {
+        "id": "REC11-15aee9"
+      },
+      {
+        "id": "REC11-899282"
+      },
+      {
+        "id": "REC11-8cb0f7"
+      },
+      {
+        "id": "REC11-4fb4a9"
+      },
+      {
+        "id": "REC11-5e9da5"
+      },
+      {
+        "id": "REC11-94c507"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC11-d3f12d",
+      "REC11-31532c",
+      "REC11-356d4b",
+      "REC11-303d98",
+      "REC11-742514",
+      "REC11-a122ec",
+      "REC11-339938",
+      "REC11-8660cf",
+      "REC11-f18977"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_12_player_availability",
+    "task_type": "record_extraction",
+    "task_family": "sports",
+    "source_path": "task/text-extraction/sources/text_12_player_availability.txt",
+    "extraction_instruction": "Extract player availability restrictions that include player, team/context, restriction, and affected match/date. Exclude minor soreness without restriction and completed absences.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC12-380bbb"
+      },
+      {
+        "id": "REC12-25ab0c"
+      },
+      {
+        "id": "REC12-cb2772"
+      },
+      {
+        "id": "REC12-54bb74"
+      },
+      {
+        "id": "REC12-0ce230"
+      },
+      {
+        "id": "REC12-ece183"
+      },
+      {
+        "id": "REC12-fe8e2e"
+      },
+      {
+        "id": "REC12-cdbdd8"
+      },
+      {
+        "id": "REC12-e48899"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC12-799c80",
+      "REC12-4bad02",
+      "REC12-c8970c",
+      "REC12-2c2c12",
+      "REC12-a0f8b6",
+      "REC12-535a87",
+      "REC12-9cada9",
+      "REC12-8291f3",
+      "REC12-588360"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_13_match_turning_points",
+    "task_type": "record_extraction",
+    "task_family": "sports",
+    "source_path": "task/text-extraction/sources/text_13_match_turning_points.txt",
+    "extraction_instruction": "Extract decisive score-related events that include player/team, action, score impact, and match minute/period. Include scoring plays and prevented penalty shots that preserve a lead; exclude routine possessions and disallowed scores.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC13-2cf378"
+      },
+      {
+        "id": "REC13-13095f"
+      },
+      {
+        "id": "REC13-e8f857"
+      },
+      {
+        "id": "REC13-7427b9"
+      },
+      {
+        "id": "REC13-58f915"
+      },
+      {
+        "id": "REC13-a89d63"
+      },
+      {
+        "id": "REC13-e2b99c"
+      },
+      {
+        "id": "REC13-214bbf"
+      },
+      {
+        "id": "REC13-bb3346"
+      },
+      {
+        "id": "REC13-4d2ec5"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC13-9bcc35",
+      "REC13-911c42",
+      "REC13-3e1941",
+      "REC13-3e84b9",
+      "REC13-465619",
+      "REC13-dbac27",
+      "REC13-83b335",
+      "REC13-109243",
+      "REC13-83e71a",
+      "REC13-fba888",
+      "REC13-84e186"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_14_discharge_followups",
+    "task_type": "record_extraction",
+    "task_family": "healthcare",
+    "source_path": "task/text-extraction/sources/text_14_discharge_followups.txt",
+    "extraction_instruction": "Extract discharge follow-ups that include patient, action, provider/location, and timing. Exclude general advice and completed inpatient steps.",
+    "reference_item_count": 11,
+    "reference_items": [
+      {
+        "id": "REC14-61ded1"
+      },
+      {
+        "id": "REC14-2fc32a"
+      },
+      {
+        "id": "REC14-5b0376"
+      },
+      {
+        "id": "REC14-bcba84"
+      },
+      {
+        "id": "REC14-030096"
+      },
+      {
+        "id": "REC14-4fa429"
+      },
+      {
+        "id": "REC14-2c1987"
+      },
+      {
+        "id": "REC14-a35f85"
+      },
+      {
+        "id": "REC14-23c222"
+      },
+      {
+        "id": "REC14-6c13e1"
+      },
+      {
+        "id": "REC14-7ff44a"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC14-74fce1",
+      "REC14-695bdb",
+      "REC14-ac8713",
+      "REC14-168692",
+      "REC14-607012",
+      "REC14-cd6bee",
+      "REC14-335ffb",
+      "REC14-779360",
+      "REC14-4cc08f",
+      "REC14-f76d25",
+      "REC14-ba1ee1",
+      "REC14-c57a70"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_15_lab_results_recheck",
+    "task_type": "record_extraction",
+    "task_family": "healthcare",
+    "source_path": "task/text-extraction/sources/text_15_lab_results_recheck.txt",
+    "extraction_instruction": "Extract lab results needing urgent recheck that include marker, value, threshold/reason, patient, and deadline. Exclude normal values and routine annual labs.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC15-eac0ae"
+      },
+      {
+        "id": "REC15-1f0c56"
+      },
+      {
+        "id": "REC15-7589fa"
+      },
+      {
+        "id": "REC15-76002b"
+      },
+      {
+        "id": "REC15-4f93b9"
+      },
+      {
+        "id": "REC15-ef229f"
+      },
+      {
+        "id": "REC15-fbc33e"
+      },
+      {
+        "id": "REC15-85f8dc"
+      },
+      {
+        "id": "REC15-a936c5"
+      },
+      {
+        "id": "REC15-d42247"
+      },
+      {
+        "id": "REC15-562919"
+      },
+      {
+        "id": "REC15-de5b3e"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC15-f7ef26",
+      "REC15-e26db7",
+      "REC15-95b77d",
+      "REC15-3cc001",
+      "REC15-5453e1",
+      "REC15-8053f1",
+      "REC15-476421",
+      "REC15-854253",
+      "REC15-282187"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_16_contract_termination",
+    "task_type": "record_extraction",
+    "task_family": "legal_compliance",
+    "source_path": "task/text-extraction/sources/text_16_contract_termination.txt",
+    "extraction_instruction": "Extract contract termination rights that include party, trigger condition, notice period, and consequence. Exclude renewal mechanics and payment reminders.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC16-124f77"
+      },
+      {
+        "id": "REC16-f8b883"
+      },
+      {
+        "id": "REC16-b4a4be"
+      },
+      {
+        "id": "REC16-58b66a"
+      },
+      {
+        "id": "REC16-225cbf"
+      },
+      {
+        "id": "REC16-5f3088"
+      },
+      {
+        "id": "REC16-16fbd8"
+      },
+      {
+        "id": "REC16-d3a41a"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC16-902bb4",
+      "REC16-787ab7",
+      "REC16-45cf22",
+      "REC16-2af20e",
+      "REC16-5fecfd",
+      "REC16-e653ef",
+      "REC16-962f9d",
+      "REC16-06be0f",
+      "REC16-03bacc"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_17_audit_remediation",
+    "task_type": "record_extraction",
+    "task_family": "legal_compliance",
+    "source_path": "task/text-extraction/sources/text_17_audit_remediation.txt",
+    "extraction_instruction": "Extract audit remediation items that include control area, deficiency, owner, and due date. Exclude observations marked informational or already closed.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC17-da17c7"
+      },
+      {
+        "id": "REC17-f764e5"
+      },
+      {
+        "id": "REC17-31f326"
+      },
+      {
+        "id": "REC17-e7c398"
+      },
+      {
+        "id": "REC17-69eb94"
+      },
+      {
+        "id": "REC17-9dead1"
+      },
+      {
+        "id": "REC17-71c7ed"
+      },
+      {
+        "id": "REC17-984b28"
+      },
+      {
+        "id": "REC17-c91317"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC17-830d82",
+      "REC17-21ec76",
+      "REC17-b71f9f",
+      "REC17-f175e5",
+      "REC17-c59d83",
+      "REC17-ab7b67",
+      "REC17-6fe74c",
+      "REC17-498065",
+      "REC17-412e50",
+      "REC17-532590",
+      "REC17-95ba2e"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_18_shipment_delays",
+    "task_type": "record_extraction",
+    "task_family": "logistics",
+    "source_path": "task/text-extraction/sources/text_18_shipment_delays.txt",
+    "extraction_instruction": "Extract delayed shipments requiring escalation that include order/customer, cause, new ETA, and escalation owner. Exclude on-time shipments and delays without owner.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC18-5684d8"
+      },
+      {
+        "id": "REC18-8f917d"
+      },
+      {
+        "id": "REC18-879dc2"
+      },
+      {
+        "id": "REC18-803b10"
+      },
+      {
+        "id": "REC18-3d12f3"
+      },
+      {
+        "id": "REC18-00e076"
+      },
+      {
+        "id": "REC18-86df0b"
+      },
+      {
+        "id": "REC18-5812dd"
+      },
+      {
+        "id": "REC18-8b7c0d"
+      },
+      {
+        "id": "REC18-da7fc5"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC18-ab57b7",
+      "REC18-35dce1",
+      "REC18-c8c2fb",
+      "REC18-e9ac02",
+      "REC18-0b4d1c",
+      "REC18-177011",
+      "REC18-6d4b7b",
+      "REC18-80eaf9",
+      "REC18-ee2a43"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_19_warehouse_substitutions",
+    "task_type": "record_extraction",
+    "task_family": "logistics",
+    "source_path": "task/text-extraction/sources/text_19_warehouse_substitutions.txt",
+    "extraction_instruction": "Extract approved warehouse substitutions that include original item, substitute item, approver, and affected order/date. Exclude proposed substitutions and stock notes.",
+    "reference_item_count": 11,
+    "reference_items": [
+      {
+        "id": "REC19-cf7b50"
+      },
+      {
+        "id": "REC19-b38249"
+      },
+      {
+        "id": "REC19-0895ea"
+      },
+      {
+        "id": "REC19-7bba78"
+      },
+      {
+        "id": "REC19-87e72c"
+      },
+      {
+        "id": "REC19-7ffb78"
+      },
+      {
+        "id": "REC19-bd5a11"
+      },
+      {
+        "id": "REC19-84bb12"
+      },
+      {
+        "id": "REC19-1c05ed"
+      },
+      {
+        "id": "REC19-bf9879"
+      },
+      {
+        "id": "REC19-b5afd7"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC19-bcb946",
+      "REC19-5f7136",
+      "REC19-012461",
+      "REC19-73917d",
+      "REC19-ec0385",
+      "REC19-c979f6",
+      "REC19-5db82d",
+      "REC19-a20384",
+      "REC19-bf278f",
+      "REC19-e9100c",
+      "REC19-b17b58"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_20_hotel_requests",
+    "task_type": "record_extraction",
+    "task_family": "travel",
+    "source_path": "task/text-extraction/sources/text_20_hotel_requests.txt",
+    "extraction_instruction": "Extract hotel special requests that include guest, request, hotel response/status, and stay date. Exclude preferences not acknowledged by hotel.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC20-00574a"
+      },
+      {
+        "id": "REC20-602be9"
+      },
+      {
+        "id": "REC20-8c75f0"
+      },
+      {
+        "id": "REC20-c2b42a"
+      },
+      {
+        "id": "REC20-073157"
+      },
+      {
+        "id": "REC20-5f172b"
+      },
+      {
+        "id": "REC20-ee7de1"
+      },
+      {
+        "id": "REC20-6e76b2"
+      },
+      {
+        "id": "REC20-ebff31"
+      },
+      {
+        "id": "REC20-40e61b"
+      },
+      {
+        "id": "REC20-9ad72f"
+      },
+      {
+        "id": "REC20-d62702"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC20-49cdbb",
+      "REC20-c26faa",
+      "REC20-e4118c",
+      "REC20-bc6c66",
+      "REC20-952a55",
+      "REC20-773fff",
+      "REC20-8041f1",
+      "REC20-5e5c57",
+      "REC20-52d3d8",
+      "REC20-e2e26d",
+      "REC20-973964"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_21_flight_compensation",
+    "task_type": "record_extraction",
+    "task_family": "travel",
+    "source_path": "task/text-extraction/sources/text_21_flight_compensation.txt",
+    "extraction_instruction": "Extract flight compensation eligibility cases with passenger, disruption, qualifying rule, and compensation offered/requested. Exclude weather-only delays and voluntary changes.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC21-579ca9"
+      },
+      {
+        "id": "REC21-5f9f73"
+      },
+      {
+        "id": "REC21-e4c4b8"
+      },
+      {
+        "id": "REC21-3c7af5"
+      },
+      {
+        "id": "REC21-ed3490"
+      },
+      {
+        "id": "REC21-4a5696"
+      },
+      {
+        "id": "REC21-f64a28"
+      },
+      {
+        "id": "REC21-e06621"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC21-c6e90e",
+      "REC21-1606f1",
+      "REC21-cd656f",
+      "REC21-1bb68f",
+      "REC21-11ffaa",
+      "REC21-9f8c1b",
+      "REC21-dc99c2",
+      "REC21-361337",
+      "REC21-7e8612"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_22_manuscript_revisions",
+    "task_type": "record_extraction",
+    "task_family": "academic_research",
+    "source_path": "task/text-extraction/sources/text_22_manuscript_revisions.txt",
+    "extraction_instruction": "Extract manuscript revision tasks with author, manuscript section/figure, required change, and deadline. Exclude praise and optional future analyses.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC22-0537c6"
+      },
+      {
+        "id": "REC22-c46f70"
+      },
+      {
+        "id": "REC22-2f80b8"
+      },
+      {
+        "id": "REC22-26a59a"
+      },
+      {
+        "id": "REC22-4b838e"
+      },
+      {
+        "id": "REC22-0c6e31"
+      },
+      {
+        "id": "REC22-6572fb"
+      },
+      {
+        "id": "REC22-172b6f"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC22-7c8401",
+      "REC22-a71f5a",
+      "REC22-2509e4",
+      "REC22-546c37",
+      "REC22-dec642",
+      "REC22-d2c0f4",
+      "REC22-607bb3",
+      "REC22-1c14ae",
+      "REC22-df8fe1",
+      "REC22-76afae",
+      "REC22-4ca6cb",
+      "REC22-e7e59d",
+      "REC22-a97abc"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_23_grant_materials",
+    "task_type": "record_extraction",
+    "task_family": "academic_research",
+    "source_path": "task/text-extraction/sources/text_23_grant_materials.txt",
+    "extraction_instruction": "Extract missing grant materials with owner, material, funder/program, and due date. Exclude materials already uploaded or merely recommended.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC23-4d2e75"
+      },
+      {
+        "id": "REC23-4974c4"
+      },
+      {
+        "id": "REC23-655fd7"
+      },
+      {
+        "id": "REC23-da49e7"
+      },
+      {
+        "id": "REC23-f10797"
+      },
+      {
+        "id": "REC23-af17f9"
+      },
+      {
+        "id": "REC23-728a97"
+      },
+      {
+        "id": "REC23-4d04e7"
+      },
+      {
+        "id": "REC23-59591b"
+      },
+      {
+        "id": "REC23-efbcde"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC23-df2844",
+      "REC23-d5ac5f",
+      "REC23-e32bca",
+      "REC23-15408b",
+      "REC23-9cba84",
+      "REC23-d629ad",
+      "REC23-90f7a8",
+      "REC23-8c8685",
+      "REC23-6fd77b",
+      "REC23-b7141d",
+      "REC23-a73c61"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_24_reviewer_must_respond",
+    "task_type": "record_extraction",
+    "task_family": "academic_research",
+    "source_path": "task/text-extraction/sources/text_24_reviewer_must_respond.txt",
+    "extraction_instruction": "Extract reviewer comments requiring a mandatory response with reviewer, issue, manuscript area, and requested evidence/change. Exclude compliments and optional suggestions.",
+    "reference_item_count": 11,
+    "reference_items": [
+      {
+        "id": "REC24-3e62cb"
+      },
+      {
+        "id": "REC24-dba0f8"
+      },
+      {
+        "id": "REC24-2bd13a"
+      },
+      {
+        "id": "REC24-35bf32"
+      },
+      {
+        "id": "REC24-c15d44"
+      },
+      {
+        "id": "REC24-3c169b"
+      },
+      {
+        "id": "REC24-2b4014"
+      },
+      {
+        "id": "REC24-10718c"
+      },
+      {
+        "id": "REC24-80b35e"
+      },
+      {
+        "id": "REC24-e8a2ec"
+      },
+      {
+        "id": "REC24-1c1658"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC24-5c3065",
+      "REC24-84474e",
+      "REC24-c9f235",
+      "REC24-893704",
+      "REC24-6f1407",
+      "REC24-b15722",
+      "REC24-aa87b9",
+      "REC24-d3e2ef",
+      "REC24-f72207",
+      "REC24-a5f35e",
+      "REC24-868f79"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_25_api_breaking_changes",
+    "task_type": "record_extraction",
+    "task_family": "product_engineering",
+    "source_path": "task/text-extraction/sources/text_25_api_breaking_changes.txt",
+    "extraction_instruction": "Extract breaking API changes with endpoint/field, old behavior, new behavior, and migration deadline/version. Exclude additive changes and documentation-only notes.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC25-d92a7b"
+      },
+      {
+        "id": "REC25-4b7da6"
+      },
+      {
+        "id": "REC25-d05719"
+      },
+      {
+        "id": "REC25-670d0a"
+      },
+      {
+        "id": "REC25-7a4635"
+      },
+      {
+        "id": "REC25-ae104b"
+      },
+      {
+        "id": "REC25-fc5628"
+      },
+      {
+        "id": "REC25-98a5bb"
+      },
+      {
+        "id": "REC25-45678d"
+      },
+      {
+        "id": "REC25-38e861"
+      },
+      {
+        "id": "REC25-a12538"
+      },
+      {
+        "id": "REC25-60f3c7"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC25-0991cd",
+      "REC25-458eed",
+      "REC25-810d2b",
+      "REC25-926407",
+      "REC25-0cc329",
+      "REC25-0eff19",
+      "REC25-e22248",
+      "REC25-061aa3",
+      "REC25-a37d4f",
+      "REC25-6ce20e",
+      "REC25-a9598a"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_26_bug_triage_p0",
+    "task_type": "record_extraction",
+    "task_family": "product_engineering",
+    "source_path": "task/text-extraction/sources/text_26_bug_triage_p0.txt",
+    "extraction_instruction": "Extract urgent engineering triage items: P0/P1 bugs and breaking API migrations that require immediate developer action. Include the affected feature/API, severity or version/deadline, impact/change, owner or required migration. Exclude low-severity bugs, fixed items, documentation-only notes, and advisory deprecations without required action.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC26-389767"
+      },
+      {
+        "id": "REC26-1412e9"
+      },
+      {
+        "id": "REC26-0b0f70"
+      },
+      {
+        "id": "REC26-27e5c4"
+      },
+      {
+        "id": "REC26-88cd4b"
+      },
+      {
+        "id": "REC26-e4fb16"
+      },
+      {
+        "id": "REC26-f4a0df"
+      },
+      {
+        "id": "REC26-fac6e5"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC26-c1a194",
+      "REC26-13de19",
+      "REC26-3114d7",
+      "REC26-1693f2",
+      "REC26-636f5f",
+      "REC26-8fc492",
+      "REC26-633d9f",
+      "REC26-d337f6",
+      "REC26-b49ec5",
+      "REC26-721666",
+      "REC26-334a8c",
+      "REC26-6ae79c"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_27_return_eligibility",
+    "task_type": "record_extraction",
+    "task_family": "retail_ecommerce",
+    "source_path": "task/text-extraction/sources/text_27_return_eligibility.txt",
+    "extraction_instruction": "Extract eligible return cases with customer/item, eligibility reason, required condition, and deadline. Exclude final-sale items and expired windows.",
+    "reference_item_count": 6,
+    "reference_items": [
+      {
+        "id": "REC27-f95e68"
+      },
+      {
+        "id": "REC27-f680f3"
+      },
+      {
+        "id": "REC27-b0c256"
+      },
+      {
+        "id": "REC27-2f6bf6"
+      },
+      {
+        "id": "REC27-377fa5"
+      },
+      {
+        "id": "REC27-3b247a"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC27-03d90a",
+      "REC27-409d81",
+      "REC27-43aa8d",
+      "REC27-9a033d",
+      "REC27-b9c7e4",
+      "REC27-948aee",
+      "REC27-3fa615",
+      "REC27-d7f281",
+      "REC27-0f0380",
+      "REC27-49b613",
+      "REC27-14e3a2",
+      "REC27-a7b3da",
+      "REC27-703e71",
+      "REC27-19fd3f",
+      "REC27-1b286f"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_28_promotion_exclusions",
+    "task_type": "record_extraction",
+    "task_family": "retail_ecommerce",
+    "source_path": "task/text-extraction/sources/text_28_promotion_exclusions.txt",
+    "extraction_instruction": "Extract promotion exclusions with promotion, excluded item/category, reason/condition, and effective period. Exclude eligible examples and expired campaigns.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC28-ff598c"
+      },
+      {
+        "id": "REC28-ccb0bc"
+      },
+      {
+        "id": "REC28-dffe87"
+      },
+      {
+        "id": "REC28-ec1ead"
+      },
+      {
+        "id": "REC28-183622"
+      },
+      {
+        "id": "REC28-fca84b"
+      },
+      {
+        "id": "REC28-55b159"
+      },
+      {
+        "id": "REC28-0673af"
+      },
+      {
+        "id": "REC28-bb34c3"
+      },
+      {
+        "id": "REC28-9326dc"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC28-ef8c07",
+      "REC28-18d7c3",
+      "REC28-1bb007",
+      "REC28-c30bbe",
+      "REC28-ce5937",
+      "REC28-175b91",
+      "REC28-beae9f",
+      "REC28-1d7600",
+      "REC28-60ac13",
+      "REC28-c18980",
+      "REC28-ac0421",
+      "REC28-a6b515"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_29_civic_votes",
+    "task_type": "record_extraction",
+    "task_family": "public_policy",
+    "source_path": "task/text-extraction/sources/text_29_civic_votes.txt",
+    "extraction_instruction": "Extract passed civic motions with body, action, subject, vote count, and implementation date. Exclude tabled motions and discussion-only items.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC29-08379b"
+      },
+      {
+        "id": "REC29-624583"
+      },
+      {
+        "id": "REC29-a97ce6"
+      },
+      {
+        "id": "REC29-3d1286"
+      },
+      {
+        "id": "REC29-8786c6"
+      },
+      {
+        "id": "REC29-d08771"
+      },
+      {
+        "id": "REC29-cd78c5"
+      },
+      {
+        "id": "REC29-133da1"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC29-9a16de",
+      "REC29-9f9f23",
+      "REC29-8dc6e0",
+      "REC29-de8cdc",
+      "REC29-72ed95",
+      "REC29-e53d63",
+      "REC29-b5c8f5",
+      "REC29-ece34e",
+      "REC29-8bdb46",
+      "REC29-c93483",
+      "REC29-07f6d2",
+      "REC29-116fb2",
+      "REC29-1de959",
+      "REC29-1f725f",
+      "REC29-adb828"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_30_grant_eligibility",
+    "task_type": "record_extraction",
+    "task_family": "public_policy",
+    "source_path": "task/text-extraction/sources/text_30_grant_eligibility.txt",
+    "extraction_instruction": "Extract grant eligibility restrictions with program, applicant/category, restriction, and exception if any. Exclude application tips and scoring criteria.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC30-8c9d51"
+      },
+      {
+        "id": "REC30-17dccb"
+      },
+      {
+        "id": "REC30-c3245c"
+      },
+      {
+        "id": "REC30-805196"
+      },
+      {
+        "id": "REC30-673a74"
+      },
+      {
+        "id": "REC30-24a5a9"
+      },
+      {
+        "id": "REC30-a04541"
+      },
+      {
+        "id": "REC30-90b26a"
+      },
+      {
+        "id": "REC30-bbbb48"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC30-839f82",
+      "REC30-20b4b9",
+      "REC30-2a28f8",
+      "REC30-6bfc1c",
+      "REC30-a50be1",
+      "REC30-7f719e",
+      "REC30-1ab683",
+      "REC30-27775d",
+      "REC30-05abd8",
+      "REC30-7cac9e",
+      "REC30-f84c6c",
+      "REC30-94e141",
+      "REC30-243680",
+      "REC30-4cd3b8",
+      "REC30-340094"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_31_novel_promises",
+    "task_type": "record_extraction",
+    "task_family": "literature_narrative",
+    "source_path": "task/text-extraction/sources/text_31_novel_promises.txt",
+    "extraction_instruction": "Extract character promises that include speaker, promise, recipient/beneficiary, and time/place anchor. Exclude threats, memories, and vague wishes.",
+    "reference_item_count": 6,
+    "reference_items": [
+      {
+        "id": "REC31-119ff3"
+      },
+      {
+        "id": "REC31-2d67ee"
+      },
+      {
+        "id": "REC31-5c3164"
+      },
+      {
+        "id": "REC31-1561c5"
+      },
+      {
+        "id": "REC31-6086d3"
+      },
+      {
+        "id": "REC31-38e799"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC31-1ff03e",
+      "REC31-8e3c26",
+      "REC31-5dde3a",
+      "REC31-437a46",
+      "REC31-afd863",
+      "REC31-5029d0",
+      "REC31-5ddc39",
+      "REC31-c1e574",
+      "REC31-b8436f",
+      "REC31-1ce722",
+      "REC31-e8f624",
+      "REC31-0c8602",
+      "REC31-957537",
+      "REC31-4d2ae3"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_32_script_relationships",
+    "task_type": "record_extraction",
+    "task_family": "literature_narrative",
+    "source_path": "task/text-extraction/sources/text_32_script_relationships.txt",
+    "extraction_instruction": "Extract revealed relationships with character A, character B, relationship, and evidence line. Exclude lies later contradicted in the scene.",
+    "reference_item_count": 6,
+    "reference_items": [
+      {
+        "id": "REC32-82c17e"
+      },
+      {
+        "id": "REC32-1396ba"
+      },
+      {
+        "id": "REC32-05575f"
+      },
+      {
+        "id": "REC32-f26645"
+      },
+      {
+        "id": "REC32-dc7ad3"
+      },
+      {
+        "id": "REC32-ff0ac4"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC32-fa7ac9",
+      "REC32-70e9de",
+      "REC32-c580c7",
+      "REC32-6d5b8a",
+      "REC32-a5fd66",
+      "REC32-5b6325",
+      "REC32-0669a4",
+      "REC32-faf317",
+      "REC32-06db3c",
+      "REC32-28bfa8",
+      "REC32-38cd30",
+      "REC32-5e5e8b",
+      "REC32-a2354d"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_33_climate_thresholds",
+    "task_type": "record_extraction",
+    "task_family": "science_environment",
+    "source_path": "task/text-extraction/sources/text_33_climate_thresholds.txt",
+    "extraction_instruction": "Extract climate threshold projections with region/system, threshold, projected timing, and driver. Exclude historical observations and adaptation plans.",
+    "reference_item_count": 7,
+    "reference_items": [
+      {
+        "id": "REC33-894b7a"
+      },
+      {
+        "id": "REC33-6f5ca5"
+      },
+      {
+        "id": "REC33-8a9a29"
+      },
+      {
+        "id": "REC33-eb9cf7"
+      },
+      {
+        "id": "REC33-32c58f"
+      },
+      {
+        "id": "REC33-69f2a8"
+      },
+      {
+        "id": "REC33-c9d630"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC33-d0f2ef",
+      "REC33-956cf1",
+      "REC33-098929",
+      "REC33-b73180",
+      "REC33-f4c8e5",
+      "REC33-01e47e",
+      "REC33-803ad9",
+      "REC33-99d838",
+      "REC33-00054d",
+      "REC33-8ed5c4",
+      "REC33-9413c2",
+      "REC33-d41550",
+      "REC33-528d9b",
+      "REC33-4ea9cf",
+      "REC33-f8ffc4"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_34_bio_experiment_results",
+    "task_type": "record_extraction",
+    "task_family": "science_environment",
+    "source_path": "task/text-extraction/sources/text_34_bio_experiment_results.txt",
+    "extraction_instruction": "Extract biological experiment findings with organism/sample, treatment, measured outcome, and comparison/control. Exclude planned experiments and methods-only details.",
+    "reference_item_count": 7,
+    "reference_items": [
+      {
+        "id": "REC34-b0c206"
+      },
+      {
+        "id": "REC34-7a33cc"
+      },
+      {
+        "id": "REC34-fc8d2a"
+      },
+      {
+        "id": "REC34-879e49"
+      },
+      {
+        "id": "REC34-85408c"
+      },
+      {
+        "id": "REC34-668543"
+      },
+      {
+        "id": "REC34-57de7b"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC34-7395ec",
+      "REC34-863d60",
+      "REC34-ae074c",
+      "REC34-315f0c",
+      "REC34-715874",
+      "REC34-661410",
+      "REC34-834af5",
+      "REC34-061a08",
+      "REC34-6c59ee",
+      "REC34-333cfc",
+      "REC34-090860",
+      "REC34-98c607",
+      "REC34-fd04ce",
+      "REC34-b18592",
+      "REC34-3234c8",
+      "REC34-3e5313"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_35_astronomy_anomalies",
+    "task_type": "record_extraction",
+    "task_family": "science_environment",
+    "source_path": "task/text-extraction/sources/text_35_astronomy_anomalies.txt",
+    "extraction_instruction": "Extract candidate astronomy anomalies with object/field, observed signal, expected baseline, and follow-up. Exclude known artifacts and routine detections.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC35-4e8196"
+      },
+      {
+        "id": "REC35-875936"
+      },
+      {
+        "id": "REC35-398265"
+      },
+      {
+        "id": "REC35-d4df15"
+      },
+      {
+        "id": "REC35-c2f685"
+      },
+      {
+        "id": "REC35-0357b8"
+      },
+      {
+        "id": "REC35-e94724"
+      },
+      {
+        "id": "REC35-2c0178"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC35-8a6b7e",
+      "REC35-e392a0",
+      "REC35-e9bfdb",
+      "REC35-0e1cd6",
+      "REC35-59fe60",
+      "REC35-b4b3b9",
+      "REC35-14b884",
+      "REC35-45fdc5",
+      "REC35-68e520",
+      "REC35-4d7fd8",
+      "REC35-fa5fb8",
+      "REC35-8654c7",
+      "REC35-eea89b",
+      "REC35-141aec",
+      "REC35-c05623",
+      "REC35-bf8886"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_36_restaurant_shifts",
+    "task_type": "record_extraction",
+    "task_family": "food_ops",
+    "source_path": "task/text-extraction/sources/text_36_restaurant_shifts.txt",
+    "extraction_instruction": "Extract restaurant staffing changes with employee, shift/date, change type, and manager approval/status. Exclude requests not approved and normal assignments.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC36-45d959"
+      },
+      {
+        "id": "REC36-d6fb87"
+      },
+      {
+        "id": "REC36-b38768"
+      },
+      {
+        "id": "REC36-fc4ae7"
+      },
+      {
+        "id": "REC36-93239a"
+      },
+      {
+        "id": "REC36-39ed2f"
+      },
+      {
+        "id": "REC36-214da6"
+      },
+      {
+        "id": "REC36-c969bc"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC36-7f7341",
+      "REC36-19aa20",
+      "REC36-cb0547",
+      "REC36-b47d9a",
+      "REC36-ebd113",
+      "REC36-6426e6",
+      "REC36-ac1f3d",
+      "REC36-ce582b",
+      "REC36-39734c",
+      "REC36-d4832c",
+      "REC36-f04c3d"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_37_allergen_risks",
+    "task_type": "record_extraction",
+    "task_family": "food_ops",
+    "source_path": "task/text-extraction/sources/text_37_allergen_risks.txt",
+    "extraction_instruction": "Extract menu allergen risks with dish, allergen, exposure source, and required warning/action. Exclude dishes already labeled correctly.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC37-55290e"
+      },
+      {
+        "id": "REC37-1a57ce"
+      },
+      {
+        "id": "REC37-77d7a8"
+      },
+      {
+        "id": "REC37-3d3846"
+      },
+      {
+        "id": "REC37-e1bd1f"
+      },
+      {
+        "id": "REC37-299ba9"
+      },
+      {
+        "id": "REC37-b7a9cd"
+      },
+      {
+        "id": "REC37-6cbcf6"
+      },
+      {
+        "id": "REC37-79675d"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC37-dc0d76",
+      "REC37-1a0599",
+      "REC37-dd0b2e",
+      "REC37-ba18bf",
+      "REC37-9dfd7c",
+      "REC37-87ca61",
+      "REC37-d9d1b0",
+      "REC37-e0ed53",
+      "REC37-946595",
+      "REC37-7bc9df",
+      "REC37-1f3647"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_38_lease_obligations",
+    "task_type": "record_extraction",
+    "task_family": "real_estate",
+    "source_path": "task/text-extraction/sources/text_38_lease_obligations.txt",
+    "extraction_instruction": "Extract binding property obligations, access limits, and repair constraints with party/location, obligation or constraint, amount/time limit, and trigger. Exclude background descriptions, optional amenities, and requests not stated as binding.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC38-fa6baa"
+      },
+      {
+        "id": "REC38-cf4bbb"
+      },
+      {
+        "id": "REC38-4c6c25"
+      },
+      {
+        "id": "REC38-d9f54b"
+      },
+      {
+        "id": "REC38-b996e2"
+      },
+      {
+        "id": "REC38-d35bb5"
+      },
+      {
+        "id": "REC38-a5b1d1"
+      },
+      {
+        "id": "REC38-f9e203"
+      },
+      {
+        "id": "REC38-2bb762"
+      },
+      {
+        "id": "REC38-b44928"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC38-09f6e3",
+      "REC38-50178e",
+      "REC38-b68e72",
+      "REC38-6f0dbe",
+      "REC38-20d110",
+      "REC38-6286f8",
+      "REC38-ff58a9",
+      "REC38-24e9cf",
+      "REC38-aa1602",
+      "REC38-0c5f63",
+      "REC38-44e37f",
+      "REC38-dd694d"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_39_inspection_repairs",
+    "task_type": "record_extraction",
+    "task_family": "real_estate",
+    "source_path": "task/text-extraction/sources/text_39_inspection_repairs.txt",
+    "extraction_instruction": "Extract mandatory property repairs with location, defect, responsible party, and deadline/urgency. Exclude cosmetic notes and already completed repairs.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC39-8f722d"
+      },
+      {
+        "id": "REC39-86f97e"
+      },
+      {
+        "id": "REC39-71d9b8"
+      },
+      {
+        "id": "REC39-d9d4ad"
+      },
+      {
+        "id": "REC39-3adfa4"
+      },
+      {
+        "id": "REC39-af8b16"
+      },
+      {
+        "id": "REC39-817601"
+      },
+      {
+        "id": "REC39-bce65d"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC39-b5d973",
+      "REC39-59f86f",
+      "REC39-1c32c2",
+      "REC39-fe97b0",
+      "REC39-3dd84d",
+      "REC39-83166c",
+      "REC39-abb1f3",
+      "REC39-80e5d3",
+      "REC39-1c0399",
+      "REC39-0d45e8",
+      "REC39-0f7b7d",
+      "REC39-c22f4d",
+      "REC39-ce6baa",
+      "REC39-ada5d7",
+      "REC39-56980b"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_40_privacy_sharing_limits",
+    "task_type": "record_extraction",
+    "task_family": "security_privacy",
+    "source_path": "task/text-extraction/sources/text_40_privacy_sharing_limits.txt",
+    "extraction_instruction": "Extract privacy sharing restrictions with data type, recipient, restriction, and exception/condition. Exclude general transparency statements.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC40-302424"
+      },
+      {
+        "id": "REC40-80fee1"
+      },
+      {
+        "id": "REC40-51d59e"
+      },
+      {
+        "id": "REC40-f50f4b"
+      },
+      {
+        "id": "REC40-fe7bb1"
+      },
+      {
+        "id": "REC40-9aef93"
+      },
+      {
+        "id": "REC40-d3a6d6"
+      },
+      {
+        "id": "REC40-cd9416"
+      },
+      {
+        "id": "REC40-17aa96"
+      },
+      {
+        "id": "REC40-eaf123"
+      },
+      {
+        "id": "REC40-36becb"
+      },
+      {
+        "id": "REC40-1385eb"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC40-06eb02",
+      "REC40-1080d7",
+      "REC40-aeb25b",
+      "REC40-a6d0e1",
+      "REC40-e697a3",
+      "REC40-7f2cba",
+      "REC40-d39c72",
+      "REC40-aa0d02",
+      "REC40-311f87",
+      "REC40-92a5e9",
+      "REC40-bbc3c6",
+      "REC40-62edde"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_41_access_revocations",
+    "task_type": "record_extraction",
+    "task_family": "security_privacy",
+    "source_path": "task/text-extraction/sources/text_41_access_revocations.txt",
+    "extraction_instruction": "Extract access removals that include user/group, system, reason, and deadline. Exclude access confirmations and pending investigations without removal.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC41-266e8a"
+      },
+      {
+        "id": "REC41-0fd404"
+      },
+      {
+        "id": "REC41-da514d"
+      },
+      {
+        "id": "REC41-af93d3"
+      },
+      {
+        "id": "REC41-af2ef4"
+      },
+      {
+        "id": "REC41-6cb808"
+      },
+      {
+        "id": "REC41-21071a"
+      },
+      {
+        "id": "REC41-3519a3"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC41-dbd126",
+      "REC41-9210e8",
+      "REC41-6d6155",
+      "REC41-6da223",
+      "REC41-353b6d",
+      "REC41-4d9fcd",
+      "REC41-23aaa5",
+      "REC41-aeadea",
+      "REC41-eb7f70",
+      "REC41-a27fba",
+      "REC41-5b7c79",
+      "REC41-cc77eb"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_42_news_timeline",
+    "task_type": "record_extraction",
+    "task_family": "news_media",
+    "source_path": "task/text-extraction/sources/text_42_news_timeline.txt",
+    "extraction_instruction": "Extract timeline events with actor, action, location/topic, and date/time. Exclude analysis or background context.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC42-6a3328"
+      },
+      {
+        "id": "REC42-75ee53"
+      },
+      {
+        "id": "REC42-477643"
+      },
+      {
+        "id": "REC42-e0f71e"
+      },
+      {
+        "id": "REC42-3a78fe"
+      },
+      {
+        "id": "REC42-209ca5"
+      },
+      {
+        "id": "REC42-a17718"
+      },
+      {
+        "id": "REC42-82db3b"
+      },
+      {
+        "id": "REC42-23631e"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC42-7dd865",
+      "REC42-63bf84",
+      "REC42-cd6e7a",
+      "REC42-496274",
+      "REC42-e7295e",
+      "REC42-2a2ae7",
+      "REC42-35deff",
+      "REC42-8b12c4",
+      "REC42-a7b0b4",
+      "REC42-abb261",
+      "REC42-f405a5"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_43_insurance_claims",
+    "task_type": "record_extraction",
+    "task_family": "insurance",
+    "source_path": "task/text-extraction/sources/text_43_insurance_claims.txt",
+    "extraction_instruction": "Extract covered insurance claims with claimant, loss, policy basis, and payout/next step. Exclude excluded losses and incomplete claims.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC43-c28fa7"
+      },
+      {
+        "id": "REC43-81fab1"
+      },
+      {
+        "id": "REC43-e61162"
+      },
+      {
+        "id": "REC43-f45b39"
+      },
+      {
+        "id": "REC43-d187d8"
+      },
+      {
+        "id": "REC43-fb2298"
+      },
+      {
+        "id": "REC43-ce0377"
+      },
+      {
+        "id": "REC43-ee4ead"
+      },
+      {
+        "id": "REC43-734bc2"
+      },
+      {
+        "id": "REC43-b6410f"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC43-e9feb3",
+      "REC43-55b6ca",
+      "REC43-bb1852",
+      "REC43-5e0a28",
+      "REC43-0d11fa",
+      "REC43-940ea1",
+      "REC43-c56314",
+      "REC43-4bd61f",
+      "REC43-985fc2",
+      "REC43-9521ac",
+      "REC43-7594ca",
+      "REC43-d5d303"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_44_energy_outages",
+    "task_type": "record_extraction",
+    "task_family": "utilities",
+    "source_path": "task/text-extraction/sources/text_44_energy_outages.txt",
+    "extraction_instruction": "Extract utility outage incidents requiring customer notification with area, utility/system, cause, and notification timing. Exclude internal drills and resolved notices already sent.",
+    "reference_item_count": 11,
+    "reference_items": [
+      {
+        "id": "REC44-727913"
+      },
+      {
+        "id": "REC44-57979f"
+      },
+      {
+        "id": "REC44-f705f7"
+      },
+      {
+        "id": "REC44-eb9de2"
+      },
+      {
+        "id": "REC44-c1a4f3"
+      },
+      {
+        "id": "REC44-137279"
+      },
+      {
+        "id": "REC44-96dc58"
+      },
+      {
+        "id": "REC44-c764b1"
+      },
+      {
+        "id": "REC44-036930"
+      },
+      {
+        "id": "REC44-56922d"
+      },
+      {
+        "id": "REC44-354bf6"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC44-8da539",
+      "REC44-5f5ab7",
+      "REC44-77852d",
+      "REC44-f7073b",
+      "REC44-9ffcb9",
+      "REC44-2f7275",
+      "REC44-e54a8a",
+      "REC44-2c5069",
+      "REC44-cd7639",
+      "REC44-0f3903",
+      "REC44-d50c64"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_45_museum_loans",
+    "task_type": "record_extraction",
+    "task_family": "arts_culture",
+    "source_path": "task/text-extraction/sources/text_45_museum_loans.txt",
+    "extraction_instruction": "Extract museum loan conditions with artwork/object, lender, condition, and deadline/display period. Exclude curatorial notes and completed shipments.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC45-42be11"
+      },
+      {
+        "id": "REC45-267a43"
+      },
+      {
+        "id": "REC45-473fe7"
+      },
+      {
+        "id": "REC45-f7c9b2"
+      },
+      {
+        "id": "REC45-19f32a"
+      },
+      {
+        "id": "REC45-4b45b9"
+      },
+      {
+        "id": "REC45-2bec34"
+      },
+      {
+        "id": "REC45-937992"
+      },
+      {
+        "id": "REC45-0a64ca"
+      },
+      {
+        "id": "REC45-774fe9"
+      },
+      {
+        "id": "REC45-3c029a"
+      },
+      {
+        "id": "REC45-f389c3"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC45-6eea54",
+      "REC45-47befc",
+      "REC45-cb92d5",
+      "REC45-3b2501",
+      "REC45-0323f0",
+      "REC45-c02971",
+      "REC45-2913e2",
+      "REC45-7bcb6c",
+      "REC45-5bbe5d",
+      "REC45-27bc6e",
+      "REC45-42f40a"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_46_online_course_progress",
+    "task_type": "record_extraction",
+    "task_family": "education",
+    "source_path": "task/text-extraction/sources/text_46_online_course_progress.txt",
+    "extraction_instruction": "Extract students at risk with student, course component, risk trigger, and required intervention. Exclude students on track and generic advice.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC46-e012ba"
+      },
+      {
+        "id": "REC46-ceab3e"
+      },
+      {
+        "id": "REC46-fc9e13"
+      },
+      {
+        "id": "REC46-798f3e"
+      },
+      {
+        "id": "REC46-327f92"
+      },
+      {
+        "id": "REC46-5acb3f"
+      },
+      {
+        "id": "REC46-a0a01d"
+      },
+      {
+        "id": "REC46-a87a86"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC46-00d4d3",
+      "REC46-48ca67",
+      "REC46-612a71",
+      "REC46-c141fa",
+      "REC46-28881f",
+      "REC46-27340f",
+      "REC46-617aee",
+      "REC46-b1e51c",
+      "REC46-8d9165",
+      "REC46-cdd18c",
+      "REC46-d2299f"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_47_manufacturing_defects",
+    "task_type": "record_extraction",
+    "task_family": "manufacturing",
+    "source_path": "task/text-extraction/sources/text_47_manufacturing_defects.txt",
+    "extraction_instruction": "Extract production defects requiring hold with line/product, defect, affected batch, and disposition. Exclude cosmetic defects below threshold and already released lots.",
+    "reference_item_count": 9,
+    "reference_items": [
+      {
+        "id": "REC47-6cb07b"
+      },
+      {
+        "id": "REC47-dfcead"
+      },
+      {
+        "id": "REC47-a95b79"
+      },
+      {
+        "id": "REC47-30969b"
+      },
+      {
+        "id": "REC47-3255b9"
+      },
+      {
+        "id": "REC47-132507"
+      },
+      {
+        "id": "REC47-be93df"
+      },
+      {
+        "id": "REC47-e99dc0"
+      },
+      {
+        "id": "REC47-8cddcf"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC47-7f3825",
+      "REC47-b6db4f",
+      "REC47-7a564a",
+      "REC47-4e0342",
+      "REC47-51b117",
+      "REC47-16d415",
+      "REC47-de35aa",
+      "REC47-8a9d56",
+      "REC47-d30c3c",
+      "REC47-fd14b9",
+      "REC47-e45647"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_48_game_patch_notes",
+    "task_type": "record_extraction",
+    "task_family": "gaming",
+    "source_path": "task/text-extraction/sources/text_48_game_patch_notes.txt",
+    "extraction_instruction": "Extract gameplay changes that nerf or buff a named item/character with target, change direction, numeric value, and patch version. Exclude bug fixes and cosmetic changes.",
+    "reference_item_count": 10,
+    "reference_items": [
+      {
+        "id": "REC48-37192e"
+      },
+      {
+        "id": "REC48-657d42"
+      },
+      {
+        "id": "REC48-71011c"
+      },
+      {
+        "id": "REC48-0f6816"
+      },
+      {
+        "id": "REC48-204e63"
+      },
+      {
+        "id": "REC48-128a8f"
+      },
+      {
+        "id": "REC48-4655df"
+      },
+      {
+        "id": "REC48-2700f5"
+      },
+      {
+        "id": "REC48-230c03"
+      },
+      {
+        "id": "REC48-9f89f4"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC48-78b24c",
+      "REC48-14d7fb",
+      "REC48-a8f232",
+      "REC48-1e15ef",
+      "REC48-91c26e",
+      "REC48-337b17",
+      "REC48-2ca5cb",
+      "REC48-c1dfe4",
+      "REC48-548650",
+      "REC48-e9b3cf",
+      "REC48-e178e2",
+      "REC48-22fead"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_49_real_estate_showings",
+    "task_type": "record_extraction",
+    "task_family": "real_estate",
+    "source_path": "task/text-extraction/sources/text_49_real_estate_showings.txt",
+    "extraction_instruction": "Extract property showing constraints with property, visitor/agent, constraint, and time window. Exclude marketing descriptions and canceled showings.",
+    "reference_item_count": 8,
+    "reference_items": [
+      {
+        "id": "REC49-3b769e"
+      },
+      {
+        "id": "REC49-75b9d7"
+      },
+      {
+        "id": "REC49-2cf38a"
+      },
+      {
+        "id": "REC49-313acf"
+      },
+      {
+        "id": "REC49-ec8e6e"
+      },
+      {
+        "id": "REC49-a3c342"
+      },
+      {
+        "id": "REC49-91ecb9"
+      },
+      {
+        "id": "REC49-a76736"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC49-491571",
+      "REC49-1b686b",
+      "REC49-877c74",
+      "REC49-fc74bc",
+      "REC49-a1b992",
+      "REC49-53e75c",
+      "REC49-1a488e",
+      "REC49-156299",
+      "REC49-ae14c6",
+      "REC49-ff511a",
+      "REC49-e3fa22",
+      "REC49-14dbc9",
+      "REC49-d3d26c",
+      "REC49-5946a6",
+      "REC49-91f9fc"
+    ],
+    "output_mode": "structured_objects"
+  },
+  {
+    "task_id": "text_50_podcast_sponsor_terms",
+    "task_type": "record_extraction",
+    "task_family": "media_business",
+    "source_path": "task/text-extraction/sources/text_50_podcast_sponsor_terms.txt",
+    "extraction_instruction": "Extract sponsor obligations with sponsor, deliverable, placement/timing, and penalty/condition. Exclude informal ideas and already completed reads.",
+    "reference_item_count": 12,
+    "reference_items": [
+      {
+        "id": "REC50-23ebea"
+      },
+      {
+        "id": "REC50-17cb53"
+      },
+      {
+        "id": "REC50-c5db9e"
+      },
+      {
+        "id": "REC50-2ed819"
+      },
+      {
+        "id": "REC50-688de8"
+      },
+      {
+        "id": "REC50-369168"
+      },
+      {
+        "id": "REC50-b9b10d"
+      },
+      {
+        "id": "REC50-e718c7"
+      },
+      {
+        "id": "REC50-cb41a7"
+      },
+      {
+        "id": "REC50-3d2280"
+      },
+      {
+        "id": "REC50-800fa8"
+      },
+      {
+        "id": "REC50-f014d0"
+      }
+    ],
+    "invalid_item_markers": [
+      "REC50-0e63a2",
+      "REC50-b61106",
+      "REC50-4f3c42",
+      "REC50-659e0a",
+      "REC50-26f3b6",
+      "REC50-3d92ba",
+      "REC50-d2b9dd",
+      "REC50-239d25",
+      "REC50-1c0769",
+      "REC50-6bcb18",
+      "REC50-f86c4a"
+    ],
+    "output_mode": "structured_objects"
+  }
+]

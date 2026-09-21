@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_33_normalize",
+        "ca_45_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "data_50_campus_ticket_risks",
+        "data_13_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_33_climate_thresholds",
+        "text_27_return_eligibility"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_37_buckets",
+        "ca_29_email_mask"
+      ]
+    },
+    {
+      "tasks": [
+        "data_46_campus_ticket_risks",
+        "data_12_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_02_family_medical_pickups",
+        "text_42_news_timeline"
+      ]
+    },
+    {
+      "tasks": [
+        "data_10_support_case_escalations",
+        "data_23_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "text_05_slack_blockers",
+        "text_21_flight_compensation"
+      ]
+    },
+    {
+      "tasks": [
+        "data_07_support_case_escalations",
+        "data_27_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_07_bank_anomalies",
+        "text_15_lab_results_recheck"
+      ]
+    },
+    {
+      "tasks": [
+        "text_23_grant_materials",
+        "text_49_real_estate_showings"
+      ]
+    },
+    {
+      "tasks": [
+        "data_17_procurement_finance_review",
+        "data_44_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_22_balance",
+        "ca_50_password"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_36_clinical_safety_followups",
+        "data_30_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_16_window",
+        "ca_04_slugify"
+      ]
+    },
+    {
+      "tasks": [
+        "text_32_script_relationships",
+        "text_16_contract_termination"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_50_password",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_02_family_medical_pickups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_32_grade"
+      ]
+    },
+    {
+      "tasks": [
+        "text_13_match_turning_points",
+        "text_15_lab_results_recheck"
+      ]
+    },
+    {
+      "tasks": [
+        "data_08_support_case_escalations",
+        "data_47_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_06_earnings_margin_risks",
+        "text_20_hotel_requests"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_40_inventory"
+      ]
+    },
+    {
+      "tasks": [
+        "data_19_procurement_finance_review",
+        "data_16_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_05_pagination",
+        "ca_34_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_42_buckets",
+        "ca_33_normalize"
+      ]
+    }
+  ]
+}

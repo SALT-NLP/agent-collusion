@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_29_civic_votes",
+        "text_24_reviewer_must_respond"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_11_date",
+        "ca_01_time"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_20_acronym",
+        "ca_34_cart_total"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_08_phone",
+        "ca_21_roman"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_10_dedupe",
+        "ca_39_topn"
+      ]
+    },
+    {
+      "tasks": [
+        "text_10_lab_anomalies",
+        "text_32_script_relationships"
+      ]
+    },
+    {
+      "tasks": [
+        "data_20_procurement_finance_review",
+        "data_08_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_33_normalize",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_40_inventory",
+        "ca_13_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "text_45_museum_loans",
+        "text_13_match_turning_points"
+      ]
+    }
+  ]
+}

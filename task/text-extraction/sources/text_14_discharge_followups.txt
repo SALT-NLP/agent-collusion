@@ -1,0 +1,23 @@
+[REC14-61ded1] The discharge note says Mr. Alvarez should see cardiology at North Clinic within seven days to review the new beta blocker.
+[REC14-74fce1] He was already given the first dose before leaving.
+[REC14-2fc32a] Nurse Kim told Ms. Patel to schedule a wound check with the surgical team on Monday morning.
+[REC14-695bdb] The diet handout recommends low sodium meals but has no appointment.
+[REC14-5b0376] For Jordan Lee, the note requires a repeat potassium lab at Westside Diagnostics before Friday noon.
+[REC14-bcba84] Ms. Noor should visit the anticoagulation clinic at East Medical on Tuesday afternoon for INR review.
+[REC14-030096] The note tells Mr. Chen to see pulmonology at River Hospital within two weeks for inhaler adjustment.
+[REC14-4fa429] A pediatric follow-up requires Arlo Patel to return to Lakeside Pediatrics in 48 hours for weight check.
+[REC14-2c1987] Dana Ruiz must book a neurology telehealth visit by next Friday to review seizure medication levels.
+[REC14-a35f85] Jordan Miles needs a suture removal appointment with urgent care on May 9.
+[REC14-23c222] Patient Eva Lin must see the wound clinic on Monday morning for a dressing change.
+[REC14-6c13e1] Noah Reed needs a renal-panel blood test at Lakeside Lab within 72 hours of discharge.
+[REC14-ac8713] The clinical note includes routine recovery advice, family questions, and completed scheduling details.
+[REC14-168692] Some sentences mention diet, hydration, or general warning signs without assigning a new follow-up.
+[REC14-607012] Other comments record that a clinic already called back or that a prior appointment was completed.
+[REC14-cd6bee] The important items are mixed into this broader discharge or results narrative rather than placed in a separate checklist.
+[REC14-335ffb] The remaining paragraphs include family questions, general recovery advice, and reminders about symptoms that would require a call.
+[REC14-779360] A few completed appointments are mentioned so the care team understands what has already happened.
+[REC14-4cc08f] The actionable follow-ups sit inside that broader clinical narrative.
+[REC14-f76d25] The final note includes general safety advice and family questions about transportation.
+[REC14-ba1ee1] It also documents several updates that were completed before discharge.
+[REC14-c57a70] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC14-7ff44a] Iris Wong must call the anticoagulation clinic on Thursday afternoon to review the new dose.

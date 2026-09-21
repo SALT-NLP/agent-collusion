@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_13_intersection",
+        "ca_26_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "data_27_clinical_safety_followups",
+        "data_31_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "text_30_grant_eligibility",
+        "text_41_access_revocations"
+      ]
+    },
+    {
+      "tasks": [
+        "data_40_campus_ticket_risks",
+        "data_25_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_21_roman",
+        "ca_41_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "data_02_support_case_escalations",
+        "data_03_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_49_real_estate_showings",
+        "text_01_roommate_expenses"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_09_compact",
+        "ca_45_ranges"
+      ]
+    },
+    {
+      "tasks": [
+        "text_04_meeting_decisions",
+        "text_33_climate_thresholds"
+      ]
+    },
+    {
+      "tasks": [
+        "data_06_support_case_escalations",
+        "data_23_procurement_finance_review"
+      ]
+    }
+  ]
+}

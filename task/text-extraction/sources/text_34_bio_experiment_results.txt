@@ -1,0 +1,23 @@
+[REC34-b0c206] In the seedling assay, Arabidopsis treated with salt plus compound K showed 28% longer roots than the salt-only control.
+[REC34-7395ec] The incubator settings are listed in the methods.
+[REC34-7a33cc] Yeast colonies exposed to the new antifungal had a median diameter of 1.2 mm compared with 3.9 mm for untreated plates.
+[REC34-863d60] A planned zebrafish assay has not started.
+[REC34-fc8d2a] Mouse liver slices treated with inhibitor R showed reduced IL-6 transcript levels versus vehicle control.
+[REC34-ae074c] The coastal model projects Bay Marsh salinity above 18 PSU by 2040 if dry-season inflow keeps falling.
+[REC34-879e49] The treated algae culture produced 32% less chlorophyll than the control after copper exposure.
+[REC34-315f0c] Source R22 showed an infrared flare twice the catalog baseline, and the team requested follow-up imaging.
+[REC34-715874] The tundra site may cross the methane flux alert threshold by 2038 under rapid warming.
+[REC34-85408c] The beetle assay showed larvae on diet B gained 18% more mass than larvae on the standard diet.
+[REC34-661410] Arabidopsis seedlings treated with compound B grew roots 18 percent longer than the solvent control.
+[REC34-668543] The zebrafish embryos exposed to low-dose copper showed a 22 percent lower hatch rate than untreated siblings.
+[REC34-834af5] The research digest includes historical background, known artifacts, and cautious interpretation from the investigators.
+[REC34-061a08] Some observations are described as expected seasonal variation, while others are flagged as needing more data.
+[REC34-6c59ee] The writer also explains methods and limitations in plain language.
+[REC34-333cfc] The qualifying projections, experimental findings, or anomaly candidates appear inside that broader scientific narrative.
+[REC34-090860] The digest also explains sampling limits, seasonal variation, and competing interpretations from earlier work.
+[REC34-98c607] Some measurements are included as calibration checks or historical comparison.
+[REC34-fd04ce] The concrete scientific findings sit within that broader research narrative.
+[REC34-b18592] The digest ends with caveats about sample size, calibration, and alternative interpretations.
+[REC34-3234c8] A few historical measurements are included for comparison.
+[REC34-3e5313] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC34-57de7b] Mouse organoids treated with inhibitor K produced 31 percent less cytokine than vehicle controls.

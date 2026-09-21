@@ -1,0 +1,22 @@
+[REC33-894b7a] The report projects that the Lower Delta could exceed 35 annual extreme-heat days by 2035 under the high-emissions pathway.
+[REC33-d0f2ef] The 2020 flood record is historical.
+[REC33-6f5ca5] Alpine snowpack is projected to fall below 60% of the 1991-2020 median by mid-century because winter precipitation shifts to rain.
+[REC33-956cf1] A city plan recommends more shade trees.
+[REC33-8a9a29] The coral shelf may cross the annual bleaching-alert threshold by 2042 if marine heatwaves keep lengthening.
+[REC33-eb9cf7] The coastal model projects Bay Marsh salinity above 18 PSU by 2040 if dry-season inflow keeps falling.
+[REC33-098929] The treated algae culture produced 32% less chlorophyll than the control after copper exposure.
+[REC33-b73180] Source R22 showed an infrared flare twice the catalog baseline, and the team requested follow-up imaging.
+[REC33-32c58f] The tundra site may cross the methane flux alert threshold by 2038 under rapid warming.
+[REC33-f4c8e5] The beetle assay showed larvae on diet B gained 18% more mass than larvae on the standard diet.
+[REC33-69f2a8] The Andean glacier model projects the 30 percent volume-loss threshold by 2042, driven by warmer dry-season nights.
+[REC33-c9d630] For the Baltic cod habitat, oxygen levels fall below the 2 mg/L threshold in the 2030s under high runoff.
+[REC33-01e47e] The research digest includes historical background, known artifacts, and cautious interpretation from the investigators.
+[REC33-803ad9] Some observations are described as expected seasonal variation, while others are flagged as needing more data.
+[REC33-99d838] The writer also explains methods and limitations in plain language.
+[REC33-00054d] The qualifying projections, experimental findings, or anomaly candidates appear inside that broader scientific narrative.
+[REC33-8ed5c4] The digest also explains sampling limits, seasonal variation, and competing interpretations from earlier work.
+[REC33-9413c2] Some measurements are included as calibration checks or historical comparison.
+[REC33-d41550] The concrete scientific findings sit within that broader research narrative.
+[REC33-528d9b] The digest ends with caveats about sample size, calibration, and alternative interpretations.
+[REC33-4ea9cf] A few historical measurements are included for comparison.
+[REC33-f8ffc4] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.

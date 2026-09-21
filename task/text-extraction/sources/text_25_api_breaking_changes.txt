@@ -1,0 +1,23 @@
+[REC25-d92a7b] The migration guide says /v2/invoices will stop accepting snake_case customer_id after July 1; clients must send customerId instead.
+[REC25-0991cd] A new optional memo field was added to refunds.
+[REC25-4b7da6] Webhook signatures move from header X-Sig to X-Webhook-Signature in version 2026-08, and old verification will fail.
+[REC25-458eed] The docs got new examples.
+[REC25-d05719] The search endpoint removes the legacy q parameter in favor of query when v3 becomes default on September 15.
+[REC25-670d0a] The migration notes say the reports endpoint will reject the old pageToken field after version 4.2 and requires cursor instead.
+[REC25-7a4635] The mobile API removes the legacy device_id parameter in October and requires deviceId.
+[REC25-ae104b] The webhook retry policy changes from unlimited retries to five attempts in the November release.
+[REC25-fc5628] The search API stops returning the summary field by default when v3 becomes stable.
+[REC25-98a5bb] The export route changes CSV timestamps from local time to UTC after July 15.
+[REC25-45678d] The /v2/orders endpoint will rename customer_id to buyer_id in version 3.0, and clients must migrate by August 1.
+[REC25-38e861] The webhook payload changes status from a string to an object in the June release, with old consumers supported only until July 15.
+[REC25-810d2b] The engineering notes include routine release commentary, feature-flag reminders, and low-priority bugs that can wait for the normal sprint.
+[REC25-926407] Some entries describe internal cleanup work or documentation edits with no user-facing breakage.
+[REC25-0cc329] Other comments are deprecation warnings that are advisory rather than breaking.
+[REC25-0eff19] The serious changes and incidents are mixed into this broader release discussion.
+[REC25-e22248] The document also includes release housekeeping, known issues already accepted by support, and small improvements planned for a later sprint.
+[REC25-061aa3] Engineers discuss possible causes and monitoring charts before naming the truly urgent items.
+[REC25-a37d4f] The result feels like a real triage or migration note rather than a compact answer key.
+[REC25-6ce20e] The close of the note mentions dashboards, internal cleanup, and lower-priority bugs assigned to the backlog.
+[REC25-a9598a] Several features are discussed without any immediate action.
+[REC25-a12538] The /v1/invoices endpoint drops the legacy total_cents field in version 2.7, with migration required by September 30.
+[REC25-60f3c7] The account export changes timezone from local time to UTC in the October release, and clients must update parsers by October 20.

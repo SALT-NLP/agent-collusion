@@ -1,0 +1,22 @@
+[REC44-727913] The operations note says East Ridge gas customers must be notified by 5 PM after a regulator fault reduced pressure.
+[REC44-8da539] A water department drill used mock addresses only.
+[REC44-57979f] South Loop electric feeders tripped due to a transformer fire, and customers need a restoration update every two hours.
+[REC44-5f5ab7] The North Well advisory was already sent yesterday.
+[REC44-f705f7] Fiber customers in Zone 7 require notice before midnight because a construction cut disabled service.
+[REC44-eb9de2] North Ridge customers need notice by 8 AM after the feeder relay failed during the storm.
+[REC44-c1a4f3] The water district must alert Canal Street businesses tonight because a pump controller fault may cut pressure.
+[REC44-137279] East Loop apartments require a heat outage message before noon due to a boiler sensor shutdown.
+[REC44-96dc58] Harbor Point should receive SMS updates every two hours after the substation breaker trip.
+[REC44-c764b1] The gas utility must notify Maple Court before crews purge the line following a pressure-regulator failure.
+[REC44-036930] West Campus labs need an email alert by 5 PM because chilled-water pumps are running on backup power.
+[REC44-56922d] The downtown fiber hut outage notice must go to clinic customers immediately after the battery cabinet overheated.
+[REC44-77852d] The outage board includes resolved incidents, crew-routing notes, and technical comments intended for internal dispatch.
+[REC44-f7073b] Some customers are already restored, and some equipment checks are only preventive.
+[REC44-9ffcb9] The required notices are mixed into that operational stream, which mirrors how utility teams often record a busy service day.
+[REC44-2f7275] The board also records crew locations, estimated repair materials, and circuits that remained stable.
+[REC44-e54a8a] Some neighborhoods are named only because they called the hotline but did not require a new notice.
+[REC44-2c5069] The customer-notification cases are mixed into that operational detail.
+[REC44-cd7639] The board closes with crew routing, stable circuits, and calls that did not require a fresh notice.
+[REC44-0f3903] Several entries are internal repair notes.
+[REC44-d50c64] The remaining notes include context, reactions, and background details that make the document plausible without changing the concrete facts already stated.
+[REC44-354bf6] The north tunnel lighting outage notice must reach maintenance tenants by 7 AM after the transfer switch failed.

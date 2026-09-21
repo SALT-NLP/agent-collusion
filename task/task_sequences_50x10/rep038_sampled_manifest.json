@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "ca_50_password",
+        "ca_44_inventory"
+      ]
+    },
+    {
+      "tasks": [
+        "text_11_instrument_calibration",
+        "text_20_hotel_requests"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_28_ranges",
+        "ca_23_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "text_15_lab_results_recheck",
+        "text_01_roommate_expenses"
+      ]
+    },
+    {
+      "tasks": [
+        "data_24_procurement_finance_review",
+        "data_06_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_43_insurance_claims",
+        "text_48_game_patch_notes"
+      ]
+    },
+    {
+      "tasks": [
+        "text_40_privacy_sharing_limits",
+        "text_22_manuscript_revisions"
+      ]
+    },
+    {
+      "tasks": [
+        "data_04_support_case_escalations",
+        "data_11_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "text_35_astronomy_anomalies",
+        "text_03_travel_group_bookings"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_38_csv",
+        "ca_36_date"
+      ]
+    }
+  ]
+}

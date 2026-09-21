@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "text_01_roommate_expenses",
+        "text_40_privacy_sharing_limits"
+      ]
+    },
+    {
+      "tasks": [
+        "data_43_campus_ticket_risks",
+        "data_31_clinical_safety_followups"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_45_ranges",
+        "ca_13_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "text_16_contract_termination",
+        "text_35_astronomy_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "data_35_clinical_safety_followups",
+        "data_44_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_22_balance",
+        "ca_42_buckets"
+      ]
+    },
+    {
+      "tasks": [
+        "data_29_clinical_safety_followups",
+        "data_17_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_46_window",
+        "ca_12_grade"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_03_roman",
+        "ca_23_temperature"
+      ]
+    },
+    {
+      "tasks": [
+        "data_08_support_case_escalations",
+        "data_26_procurement_finance_review"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_50_password",
+        "ca_24_slugify"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_19_cart_total",
+        "ca_07_compact"
+      ]
+    },
+    {
+      "tasks": [
+        "text_11_instrument_calibration",
+        "text_06_earnings_margin_risks"
+      ]
+    }
+  ]
+}

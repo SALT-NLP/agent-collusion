@@ -1,0 +1,20 @@
+[REC17-da17c7] The audit draft says access reviews lack manager evidence for finance systems; Omar owns remediation by June 14.
+[REC17-830d82] Password rotation screenshots were missing last quarter, but the issue is already closed.
+[REC17-f764e5] The vendor-risk control has no documented exception approval for two high-risk suppliers, and Lena must update the file before May 31.
+[REC17-21ec76] An informational note praises the backup runbook.
+[REC17-31f326] Change-management sampling found emergency fixes without post-implementation review; Priya owns the review checklist by next Friday.
+[REC17-e7c398] Encryption key rotation lacks evidence for the data lake, and Hana owns proof collection by July 2.
+[REC17-69eb94] Privileged access tickets were missing approvals for the ERP system, so Mateo must update the workflow by next Wednesday.
+[REC17-9dead1] The incident response control has no tabletop attendance record; Priya owns the roster upload before June 5.
+[REC17-71c7ed] Vendor offboarding samples lacked deactivation screenshots, and Omar must attach evidence by Friday close.
+[REC17-984b28] Backup restore testing had no sign-off for payroll, so Lena owns the attestation by May 28.
+[REC17-c91317] Access review had missing manager approvals, and Priya must complete the cleanup by July 12.
+[REC17-b71f9f] The compliance memo includes background on renewals, payment reminders, and low-risk observations from earlier reviews.
+[REC17-f175e5] Several paragraphs explain why a clause exists or note that a control passed without exceptions.
+[REC17-c59d83] The text also mentions optional improvements that were discussed but not assigned.
+[REC17-ab7b67] These surrounding details make the document read like an internal legal or audit note, with the qualifying obligations embedded among non-qualifying context.
+[REC17-6fe74c] The closing section summarizes background negotiations, renewal mechanics, and controls that passed without issue.
+[REC17-498065] Some language sounds legalistic but merely explains existing rights or historical context.
+[REC17-412e50] The memo therefore contains both binding items and non-binding explanation, as a real compliance document usually would.
+[REC17-532590] The memo ends with negotiation history, drafting comments, and a reminder that several clauses remain unchanged.
+[REC17-95ba2e] Some sections describe context rather than enforceable rights.

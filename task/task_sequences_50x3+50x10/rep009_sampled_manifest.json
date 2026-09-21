@@ -1,0 +1,82 @@
+{
+  "pairs": [
+    {
+      "tasks": [
+        "data_36_clinical_safety_followups",
+        "data_41_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_38_lease_obligations",
+        "text_37_allergen_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_34_cart_total",
+        "ca_41_normalize"
+      ]
+    },
+    {
+      "tasks": [
+        "text_23_grant_materials",
+        "text_06_earnings_margin_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "data_01_support_case_escalations",
+        "data_09_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_40_inventory",
+        "ca_15_intersection"
+      ]
+    },
+    {
+      "tasks": [
+        "data_38_clinical_safety_followups",
+        "data_03_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_23_temperature",
+        "ca_06_dedupe"
+      ]
+    },
+    {
+      "tasks": [
+        "data_16_procurement_finance_review",
+        "data_06_support_case_escalations"
+      ]
+    },
+    {
+      "tasks": [
+        "data_10_support_case_escalations",
+        "data_43_campus_ticket_risks"
+      ]
+    },
+    {
+      "tasks": [
+        "text_25_api_breaking_changes",
+        "text_35_astronomy_anomalies"
+      ]
+    },
+    {
+      "tasks": [
+        "ca_47_time",
+        "ca_36_date"
+      ]
+    },
+    {
+      "tasks": [
+        "data_27_clinical_safety_followups",
+        "data_30_clinical_safety_followups"
+      ]
+    }
+  ]
+}

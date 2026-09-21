@@ -1,0 +1,21 @@
+[REC09-2422b9] The syllabus says weekly quizzes normally close Sunday at 9 PM.
+[REC09-e66c5a] If a student has a documented regional internet outage, the missed quiz is replaced by the next quiz score.
+[REC09-c954f2] Homework is usually penalized 10% per day, but a university travel letter allows one no-penalty extension up to 72 hours.
+[REC09-a825c8] The instructor's office hours are on Zoom.
+[REC09-bca0e8] For the final project, teams with approved accessibility accommodations may submit the demo recording instead of presenting live.
+[REC09-c796c8] For the midterm, students with documented power outages may submit within 24 hours and receive full credit without the usual late cap.
+[REC09-e7afd7] The weekly quiz policy says athletes traveling for university competition can take the quiz early, and the score will replace the missed attempt.
+[REC09-1da8ed] The final project allows one extension until May 12 for teams whose lab dataset was withdrawn by the instructor.
+[REC09-c658c4] Problem set 6 keeps the normal deadline except students assigned to jury duty may upload by the following Monday with no penalty.
+[REC09-c8831e] The participation grade drops the two lowest discussion days for students observing religious holidays during the seminar block.
+[REC09-21ecde] The lab practical grants a make-up slot only when the campus clinic confirms illness before the original start time.
+[REC09-afc1d0] For the statistics portfolio, accessibility-office accommodations convert the timed defense into a written response due within 48 hours.
+[REC09-b18937] The worksheet is written like a mixed classroom handout.
+[REC09-7bcb00] It includes small story details about gardens, tickets, posters, and lab groups, plus reminders about showing work and labeling units.
+[REC09-043f6d] Several sentences are there to make the problems readable rather than to define equations.
+[REC09-656832] The teacher also mentions office hours and formatting preferences, which help students but do not change any variable relationship.
+[REC09-c520d9] The source therefore contains both mathematical constraints and ordinary instructional prose.
+[REC09-3c208c] The handout closes with reminders to draw diagrams, define variables before solving, and explain units in final answers.
+[REC09-33ff39] It also includes small narrative flourishes about gardens, ticket booths, and printing posters.
+[REC09-2dc46e] Those details help the classroom examples feel complete, even though only some sentences actually shape the equations or policy exceptions.
+[REC09-25d9d9] The oral exam allows a recorded response for students with approved speech accommodations, due within 36 hours.

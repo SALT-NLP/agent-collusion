@@ -1,0 +1,19 @@
+[REC18-5684d8] The logistics email says order TX-441 for Harbor Dental missed the cold-chain handoff after a truck breakdown; Rosa will escalate and the new ETA is Thursday 9 AM.
+[REC18-ab57b7] Order TX-442 is on time.
+[REC18-35dce1] Northstar's pallet is delayed by customs inspection with no named owner yet.
+[REC18-8f917d] For BrightCart order TX-449, a warehouse scan error sent cartons to Reno, and Malik owns escalation with a revised ETA of Friday noon.
+[REC18-879dc2] Atlas order TX-452 is held because lithium labels were missing; Jun will escalate for Monday delivery.
+[REC18-803b10] Order TX-460 for Solace Medical is delayed by dry-ice shortage, and Inez owns escalation with a new ETA of Tuesday 7 AM.
+[REC18-3d12f3] BrightMall order TX-463 missed the cross-dock scan after a barcode tear; Theo will escalate for Wednesday delivery.
+[REC18-00e076] Order TX-470 for Cedar Labs is delayed by airline embargo, and Nia owns escalation with revised arrival Friday night.
+[REC18-86df0b] RiverForge order TX-475 is stuck after a customs form mismatch; Omar will escalate and expects Monday clearance.
+[REC18-5812dd] North Pier order TX-480 lost its temperature logger, and Rosa owns escalation for replacement delivery Thursday noon.
+[REC18-8b7c0d] Order HZ-442 for Bento Labs slipped because customs held the battery paperwork; the new ETA is March 18 and Lena owns escalation.
+[REC18-da7fc5] Customer Graystone's pallet 71-A is delayed by a trailer breakdown, with a revised ETA of Friday morning and Marco handling escalation.
+[REC18-c8c2fb] The operations log includes routine picking updates, inventory counts, dock notes, and customer-service chatter.
+[REC18-e9ac02] Some shipments are described as moving normally, and a few substitutions are suggested but not approved.
+[REC18-0b4d1c] The writer also records weather conditions and carrier capacity updates that explain the day without creating a new action.
+[REC18-177011] The qualifying cases appear among this ordinary warehouse traffic.
+[REC18-6d4b7b] The shift notes also mention dock congestion, scanner battery swaps, and carrier pickup windows that stayed on schedule.
+[REC18-80eaf9] Several customers appear only in routine status updates.
+[REC18-ee2a43] This surrounding operational detail makes the delayed or substituted orders harder to identify than they would be in a clean dispatch table.
