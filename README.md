@@ -4,7 +4,7 @@
 
 \*Equal contribution.
 
-📄 [Paper](https://arxiv.org/abs/2609.24967) | 💻 [Code](https://github.com/SALT-NLP/agent-collusion) | 🤗 Data (coming soon)
+📄 [Paper](https://arxiv.org/abs/2609.24967) | 💻 [Code](https://github.com/SALT-NLP/agent-collusion) | 🤗 [Data](https://huggingface.co/datasets/SALT-NLP/agent-collusion)
 
 ## Abstract
 
@@ -164,7 +164,7 @@ Add `--controlled-bob-observed-verdict` to reveal Bob's verdict in Alice's feedb
 
 Two additional LLM judges annotate **explicit coordination** in communication and **policy relaxation** in private reflections to study how collusion begins.
 
-Start a local OpenAI-compatible model server on port, e.g., **8042**, serving Qwen 3.8 27B with the model name **`qwen3.8-27b`**. The judge scripts use this configuration by default, with thinking disabled and temperature 0.
+Start a local OpenAI-compatible model server on port, e.g., **8042**, serving Qwen 3.8 27B with the model name **`qwen3.8-27b`**. The judge scripts use this configuration by default, with `xhigh` reasoning effort and temperature 0.
 
 ```bash
 python analysis/agreement_judge.py \
