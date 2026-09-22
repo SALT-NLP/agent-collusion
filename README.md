@@ -4,7 +4,7 @@
 
 \*Equal contribution.
 
-📄 Paper (coming soon) | 💻 [Code](https://github.com/SALT-NLP/agent-collusion) | 🤗 Data (coming soon)
+📄 [Paper](https://arxiv.org/abs/2609.24967) | 💻 [Code](https://github.com/SALT-NLP/agent-collusion) | 🤗 Data (coming soon)
 
 ## Abstract
 
@@ -202,9 +202,13 @@ Code and task data are released under the [MIT License](LICENSE).
 ## Citation
 
 ```bibtex
-@misc{shi2026emergentcollusion,
-  title={Emergent Collusion in Long-Horizon LLM Agent Interaction},
-  author={Xinrui Shi and Yanzhe Zhang and Diyi Yang},
-  year={2026}
+@misc{shi2026emergentcollusionlonghorizonllm,
+      title={Emergent Collusion in Long-Horizon LLM Agent Interaction}, 
+      author={Xinrui Shi and Yanzhe Zhang and Diyi Yang},
+      year={2026},
+      eprint={2609.24967},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.24967}, 
 }
 ```
