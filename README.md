@@ -4,7 +4,7 @@
 
 \*Equal contribution.
 
-📄 [Paper](https://arxiv.org/abs/2609.24967) | 💻 [Code](https://github.com/SALT-NLP/agent-collusion) | 🤗 [Data](https://huggingface.co/datasets/SALT-NLP/agent-collusion)
+📄 [Paper](https://arxiv.org/abs/2609.24967) | 💻 [Code](https://github.com/SALT-NLP/agent-collusion) | 🤗 [Data](https://huggingface.co/datasets/SALT-NLP/agent-collusion) | 🔍 [Data Viewer](https://salt-nlp.github.io/agent-collusion-website/)
 
 ## Abstract
 
